@@ -67,3 +67,6 @@ gem 'pry-rails'
 gem 'pry-byebug'
 gem 'font-awesome-sass'
 gem 'haml-rails'
+gem 'jquery-rails'
+gem 'fullcalendar-rails'
+gem 'momentjs-rails
