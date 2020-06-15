@@ -69,4 +69,4 @@ gem 'font-awesome-sass'
 gem 'haml-rails'
 gem 'jquery-rails'
 gem 'fullcalendar-rails'
-gem 'momentjs-rails
+gem 'momentjs-rails'
