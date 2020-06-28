@@ -18,6 +18,10 @@
 //= require fullcalendar
 //= require_tree 
 
+//= require_self
+//= require fullcalendar
+//*/
+
 
 $(document).ready(function(){
   $('#calendar').fullCalendar({
