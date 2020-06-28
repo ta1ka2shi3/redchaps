@@ -1,0 +1,13 @@
+.header {
+  padding: 15px 60px;
+  max-width: 1160px;
+  height: 100px;
+  scroll-padding-top: 82px;
+  margin: 0 auto;
+  &__main {
+    display: flex;
+    &__main-header {
+      height: 100%;
+    }
+  }
+}

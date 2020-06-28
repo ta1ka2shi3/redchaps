@@ -71,6 +71,11 @@ gem 'haml-rails'
 gem 'jquery-rails'
 gem 'fullcalendar-rails'
 gem 'momentjs-rails'
+gem 'fog-aws'
+gem 'devise'
+gem 'devise-i18n'
+gem 'devise-i18n-views'
+
 
 group :production do
   gem 'pg'
