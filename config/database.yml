@@ -54,5 +54,5 @@ production:
   username: redchaps
   password: <%= ENV['REDCHAPS_DATABASE_PASSWORD'] %>
   adapter: mysql2
-  encoding: unicode
+  encoding: utf8mb4
   pool: 5
