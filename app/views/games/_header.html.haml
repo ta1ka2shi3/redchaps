@@ -1,14 +1,17 @@
 .header
   .header__main
-    .header__main-header
-      .header__main-header__text redchapus
-      - if user_signed_in?
-        = link_to "ログアウト", destroy_user_session_path, method: :delete, class: "header__right--btn"
-      -else 
+    .header__main-text redchapus
+    - if user_signed_in?
+      .header__lists--right
+        %li.header__right--btn
+          = link_to destroy_user_session_path, method: :delete
+            ログアウト
+    -else 
+      .header__lists--right
         = link_to "ログイン", new_user_session_path, class: "header__right--btn"
         = link_to "新規登録", new_user_registration_path, class: "header__right--btn"
-      .header__main-slide
-        .anime
-          = image_tag "https://pbs.twimg.com/profile_banners/782593348955541504/1554895919/1500x500", id:"gazou"
-          = image_tag "https://pbs.twimg.com/media/Dl7edsEUcAAgfAF?format=jpg&name=small", id:"gazou"
-          = image_tag "https://pbs.twimg.com/media/DLsVVdbUEAES2Ee?format=jpg&name=medium", id:"gazou"
+  .header__slide
+    .anime
+      = image_tag "https://pbs.twimg.com/profile_banners/782593348955541504/1554895919/1500x500", id:"gazou"
+      = image_tag "https://pbs.twimg.com/media/Dl7edsEUcAAgfAF?format=jpg&name=small", id:"gazou"
+      = image_tag "https://pbs.twimg.com/media/DLsVVdbUEAES2Ee?format=jpg&name=medium", id:"gazou"

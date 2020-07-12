@@ -1,20 +1,23 @@
 .header {
   padding: 15px 60px;
-  max-width: 1160px;
+  width: 100%;
   scroll-padding-top: 82px;
   margin: 0 auto;
-  &__main-slide {
+  &__main {
+    justify-content: right;
+    &__main-text{
+
+    }
+    &h__right--btn{
+
+    }
+  }
+  &__slide {
     .anime {
       width: 100%;
       .slick-track {
         height: 400px;
         width: 100%;
-      }
-    }
-    &__main-header {
-      height: 400px;
-      &__main-slide {
-        height: 400px;
       }
     }
   }

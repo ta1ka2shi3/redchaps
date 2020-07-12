@@ -5277,3 +5277,2401 @@ Processing by GamesController#index as HTML
 Completed 200 OK in 2105ms (Views: 2092.1ms | ActiveRecord: 6.6ms)
 
 
+Started GET "/" for ::1 at 2020-07-01 00:48:22 +0900
+  [1m[35m (8.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (4.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (62.3ms)
+  Rendered games/_footer.html.haml (17.6ms)
+  Rendered games/index.html.haml within layouts/application (147.8ms)
+Completed 200 OK in 3145ms (Views: 3108.1ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/" for ::1 at 2020-07-01 00:48:58 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (15.3ms)
+  Rendered games/_footer.html.haml (5.4ms)
+  Rendered games/index.html.haml within layouts/application (37.0ms)
+Completed 200 OK in 2380ms (Views: 2370.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2020-07-01 00:49:46 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (4.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (16.3ms)
+  Rendered games/_footer.html.haml (4.6ms)
+  Rendered games/index.html.haml within layouts/application (37.1ms)
+Completed 200 OK in 2151ms (Views: 2141.3ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/" for ::1 at 2020-07-01 00:50:08 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.5ms)
+  Rendered games/_footer.html.haml (3.0ms)
+  Rendered games/index.html.haml within layouts/application (25.2ms)
+Completed 200 OK in 1767ms (Views: 1760.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-07-01 00:50:44 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (10.0ms)
+  Rendered games/_footer.html.haml (4.4ms)
+  Rendered games/index.html.haml within layouts/application (28.4ms)
+Completed 200 OK in 2004ms (Views: 2000.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-07-01 00:51:16 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (9.5ms)
+  Rendered games/_footer.html.haml (3.5ms)
+  Rendered games/index.html.haml within layouts/application (28.5ms)
+Completed 200 OK in 2000ms (Views: 1991.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2020-07-01 00:52:03 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (5.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (13.7ms)
+  Rendered games/_footer.html.haml (3.3ms)
+  Rendered games/index.html.haml within layouts/application (29.2ms)
+Completed 200 OK in 2103ms (Views: 2091.9ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-01 00:52:37 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (11.5ms)
+  Rendered games/_footer.html.haml (6.4ms)
+  Rendered games/index.html.haml within layouts/application (29.4ms)
+Completed 200 OK in 1653ms (Views: 1645.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-01 00:53:05 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (6.9ms)
+  Rendered games/_footer.html.haml (2.9ms)
+  Rendered games/index.html.haml within layouts/application (24.3ms)
+Completed 200 OK in 1751ms (Views: 1744.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-01 23:10:57 +0900
+  [1m[35m (1.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (74.0ms)
+  Rendered games/_footer.html.haml (7.5ms)
+  Rendered games/index.html.haml within layouts/application (103.4ms)
+Completed 200 OK in 1027ms (Views: 997.3ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/" for ::1 at 2020-07-01 23:12:22 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (16.0ms)
+  Rendered games/_footer.html.haml (20.3ms)
+  Rendered games/index.html.haml within layouts/application (55.0ms)
+Completed 200 OK in 1672ms (Views: 1665.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 14:46:01 +0900
+  [1m[35m (27.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (18.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (72.5ms)
+  Rendered games/_footer.html.haml (20.0ms)
+  Rendered games/index.html.haml within layouts/application (150.0ms)
+Completed 200 OK in 610ms (Views: 565.7ms | ActiveRecord: 18.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 14:46:10 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (9.8ms)
+  Rendered games/_footer.html.haml (8.4ms)
+  Rendered games/index.html.haml within layouts/application (31.5ms)
+Completed 200 OK in 221ms (Views: 215.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 14:57:22 +0900
+  [1m[35m (7.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (61.6ms)
+  Rendered games/_footer.html.haml (253.1ms)
+  Rendered games/index.html.haml within layouts/application (393.8ms)
+Completed 500 Internal Server Error in 456ms (ActiveRecord: 1.9ms)
+
+
+
+ActionView::Template::Error - Illegal nesting: content can't be both given on the same line as %div and nested within it.:
+  app/views/games/_footer.html.haml:7:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml__1790272065622995243_70236745576340'
+
+Started POST "/__better_errors/8735b00633d6eae9/variables" for ::1 at 2020-07-03 14:57:23 +0900
+Started GET "/" for ::1 at 2020-07-03 14:59:36 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (9.3ms)
+  Rendered games/_footer.html.haml (4.5ms)
+  Rendered games/index.html.haml within layouts/application (25.7ms)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.5ms)
+
+
+
+ActionView::Template::Error - Illegal nesting: content can't be both given on the same line as %div and nested within it.:
+  app/views/games/_footer.html.haml:7:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml__1790272065622995243_70236735991460'
+
+Started POST "/__better_errors/ed07c38817e08929/variables" for ::1 at 2020-07-03 14:59:37 +0900
+Started GET "/" for ::1 at 2020-07-03 15:00:02 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (3.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (14.4ms)
+  Rendered games/_footer.html.haml (9.7ms)
+  Rendered games/index.html.haml within layouts/application (53.8ms)
+Completed 200 OK in 262ms (Views: 252.6ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:00:06 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (65.3ms)
+  Rendered games/_footer.html.haml (77.9ms)
+  Rendered games/index.html.haml within layouts/application (161.0ms)
+Completed 200 OK in 354ms (Views: 340.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:00:08 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.1ms)
+  Rendered games/_footer.html.haml (7.8ms)
+  Rendered games/index.html.haml within layouts/application (28.1ms)
+Completed 200 OK in 288ms (Views: 280.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:00:46 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (30.8ms)
+  Rendered games/_footer.html.haml (8.4ms)
+  Rendered games/index.html.haml within layouts/application (65.5ms)
+Completed 200 OK in 2277ms (Views: 2263.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:00:53 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (6.6ms)
+  Rendered games/_footer.html.haml (5.1ms)
+  Rendered games/index.html.haml within layouts/application (20.4ms)
+Completed 200 OK in 157ms (Views: 150.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:01:42 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (10.1ms)
+  Rendered games/_footer.html.haml (13.1ms)
+  Rendered games/index.html.haml within layouts/application (40.9ms)
+Completed 200 OK in 197ms (Views: 191.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:02:07 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (10.3ms)
+  Rendered games/_footer.html.haml (4.2ms)
+  Rendered games/index.html.haml within layouts/application (28.1ms)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 0.9ms)
+
+
+
+ActionView::Template::Error - Illegal nesting: content can't be both given on the same line as %div and nested within it.:
+  app/views/games/_footer.html.haml:7:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml__1790272065622995243_70236755108740'
+
+Started POST "/__better_errors/f86d555892424478/variables" for ::1 at 2020-07-03 15:02:07 +0900
+Started GET "/" for ::1 at 2020-07-03 15:02:13 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (10.7ms)
+  Rendered games/_footer.html.haml (5.0ms)
+  Rendered games/index.html.haml within layouts/application (33.4ms)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 0.5ms)
+
+
+
+ActionView::Template::Error - The line was indented 2 levels deeper than the previous line.:
+  app/views/games/_footer.html.haml:6:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml__1790272065622995243_70236669631500'
+
+Started POST "/__better_errors/a4770dddeff6c99f/variables" for ::1 at 2020-07-03 15:02:13 +0900
+Started GET "/" for ::1 at 2020-07-03 15:02:21 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (9.1ms)
+  Rendered games/_footer.html.haml (3.4ms)
+  Rendered games/index.html.haml within layouts/application (26.3ms)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.5ms)
+
+
+
+ActionView::Template::Error - Illegal nesting: content can't be both given on the same line as %div and nested within it.:
+  app/views/games/_footer.html.haml:7:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml__1790272065622995243_70236731745660'
+
+Started POST "/__better_errors/880b6797307182d8/variables" for ::1 at 2020-07-03 15:02:21 +0900
+Started GET "/" for ::1 at 2020-07-03 15:02:51 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.3ms)
+  Rendered games/_footer.html.haml (4.3ms)
+  Rendered games/index.html.haml within layouts/application (23.3ms)
+Completed 200 OK in 137ms (Views: 132.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:02:57 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (6.8ms)
+  Rendered games/_footer.html.haml (3.2ms)
+  Rendered games/index.html.haml within layouts/application (17.6ms)
+Completed 200 OK in 123ms (Views: 114.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:05:08 +0900
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (38.1ms)
+  Rendered games/_footer.html.haml (7.9ms)
+  Rendered games/index.html.haml within layouts/application (62.7ms)
+Completed 200 OK in 1563ms (Views: 1543.4ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:06:09 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.5ms)
+  Rendered games/_footer.html.haml (5.4ms)
+  Rendered games/index.html.haml within layouts/application (23.2ms)
+Completed 200 OK in 2103ms (Views: 2097.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:06:47 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (14.2ms)
+  Rendered games/_footer.html.haml (9.3ms)
+  Rendered games/index.html.haml within layouts/application (42.2ms)
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 0.5ms)
+
+
+
+SyntaxError - syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:5: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:5: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:8: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~:
+  app/views/games/_footer.html.haml:5:in `'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___4468600593088240777_70242660120660'
+
+Started POST "/__better_errors/4a04dbc92ab3cc7d/variables" for ::1 at 2020-07-03 15:06:48 +0900
+Started GET "/" for ::1 at 2020-07-03 15:06:58 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.9ms)
+  Rendered games/_footer.html.haml (3.9ms)
+  Rendered games/index.html.haml within layouts/application (25.3ms)
+Completed 200 OK in 214ms (Views: 208.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:07:31 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (24.1ms)
+  Rendered games/_footer.html.haml (5.3ms)
+  Rendered games/index.html.haml within layouts/application (53.3ms)
+Completed 200 OK in 2153ms (Views: 2139.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:08:58 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (25.2ms)
+  Rendered games/_footer.html.haml (16.9ms)
+  Rendered games/index.html.haml within layouts/application (66.2ms)
+Completed 200 OK in 2305ms (Views: 2294.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:10:04 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (3.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (72.7ms)
+  Rendered games/_footer.html.haml (18.0ms)
+  Rendered games/index.html.haml within layouts/application (219.8ms)
+Completed 200 OK in 2699ms (Views: 2680.8ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:17:11 +0900
+  [1m[35m (1.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (48.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (62.0ms)
+  Rendered games/_footer.html.haml (6.9ms)
+  Rendered games/index.html.haml within layouts/application (83.5ms)
+Completed 200 OK in 2178ms (Views: 2122.5ms | ActiveRecord: 48.7ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:17:53 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (6.9ms)
+  Rendered games/_footer.html.haml (6.7ms)
+  Rendered games/index.html.haml within layouts/application (24.1ms)
+Completed 200 OK in 2059ms (Views: 2054.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:18:12 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.8ms)
+  Rendered games/_footer.html.haml (5.1ms)
+  Rendered games/index.html.haml within layouts/application (26.3ms)
+Completed 200 OK in 312ms (Views: 307.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:18:54 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (8.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (17.4ms)
+  Rendered games/_footer.html.haml (4.3ms)
+  Rendered games/index.html.haml within layouts/application (32.3ms)
+Completed 200 OK in 1921ms (Views: 1907.8ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:19:39 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.9ms)
+  Rendered games/_footer.html.haml (20.7ms)
+  Rendered games/index.html.haml within layouts/application (40.1ms)
+Completed 200 OK in 1808ms (Views: 1802.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:20:48 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (9.1ms)
+  Rendered games/_footer.html.haml (10.6ms)
+  Rendered games/index.html.haml within layouts/application (34.2ms)
+Completed 200 OK in 2058ms (Views: 2052.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:23:08 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.7ms)
+  Rendered games/_footer.html.haml (4.5ms)
+  Rendered games/index.html.haml within layouts/application (43.7ms)
+Completed 200 OK in 2013ms (Views: 2008.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:24:32 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (2.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (11.5ms)
+  Rendered games/_footer.html.haml (11.5ms)
+  Rendered games/index.html.haml within layouts/application (35.7ms)
+Completed 200 OK in 1853ms (Views: 1846.0ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:24:46 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.6ms)
+  Rendered games/_footer.html.haml (4.0ms)
+  Rendered games/index.html.haml within layouts/application (22.6ms)
+Completed 200 OK in 1651ms (Views: 1644.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:25:03 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (9.1ms)
+  Rendered games/_footer.html.haml (4.7ms)
+  Rendered games/index.html.haml within layouts/application (25.8ms)
+Completed 200 OK in 1664ms (Views: 1658.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:25:15 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.6ms)
+  Rendered games/_footer.html.haml (4.7ms)
+  Rendered games/index.html.haml within layouts/application (24.6ms)
+Completed 200 OK in 1687ms (Views: 1679.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:27:29 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (12.8ms)
+  Rendered games/_footer.html.haml (16.6ms)
+  Rendered games/index.html.haml within layouts/application (48.4ms)
+Completed 500 Internal Server Error in 80ms (ActiveRecord: 1.2ms)
+
+
+
+SyntaxError - syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:6: syntax error, unexpected keyword_end, expecting ')'
+...all-ball'></i>\n".freeze);; end;; _hamlout.buffer << ((::Ham...
+...                            ^~~
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:6: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:6: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:9: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~:
+  app/views/games/_footer.html.haml:5:in `'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___4468600593088240777_70242581424560'
+
+Started POST "/__better_errors/c3bc9789e49e350c/variables" for ::1 at 2020-07-03 15:27:29 +0900
+Started GET "/" for ::1 at 2020-07-03 15:27:35 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.4ms)
+  Rendered games/_footer.html.haml (3.1ms)
+  Rendered games/index.html.haml within layouts/application (20.6ms)
+Completed 200 OK in 186ms (Views: 180.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:28:33 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.1ms)
+  Rendered games/_footer.html.haml (22.3ms)
+  Rendered games/index.html.haml within layouts/application (40.2ms)
+Completed 500 Internal Server Error in 71ms (ActiveRecord: 0.5ms)
+
+
+
+ActionView::Template::Error - Illegal nesting: content can't be both given on the same line as %span and nested within it.:
+  app/views/games/_footer.html.haml:5:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___4468600593088240777_70242681042160'
+
+Started POST "/__better_errors/f9402800e77ca1c7/variables" for ::1 at 2020-07-03 15:28:33 +0900
+Started GET "/" for ::1 at 2020-07-03 15:28:37 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.5ms)
+  Rendered games/_footer.html.haml (3.0ms)
+  Rendered games/index.html.haml within layouts/application (22.9ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.5ms)
+
+
+
+ActionView::Template::Error - Illegal nesting: content can't be both given on the same line as %span and nested within it.:
+  app/views/games/_footer.html.haml:5:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___4468600593088240777_70242580555000'
+
+Started POST "/__better_errors/3d93026715fa0673/variables" for ::1 at 2020-07-03 15:28:37 +0900
+Started GET "/" for ::1 at 2020-07-03 15:28:45 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (5.8ms)
+  Rendered games/_footer.html.haml (3.8ms)
+  Rendered games/index.html.haml within layouts/application (20.7ms)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.5ms)
+
+
+
+SyntaxError - syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:6: syntax error, unexpected keyword_end, expecting ')'
+...all-ball'></i>\n".freeze);; end;; _hamlout.buffer << ((::Ham...
+...                            ^~~
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:6: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:6: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:9: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~:
+  app/views/games/_footer.html.haml:4:in `'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___4468600593088240777_70242672553460'
+
+Started POST "/__better_errors/e3dc635e57de0c75/variables" for ::1 at 2020-07-03 15:28:45 +0900
+Started GET "/" for ::1 at 2020-07-03 15:28:50 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.8ms)
+  Rendered games/_footer.html.haml (5.1ms)
+  Rendered games/index.html.haml within layouts/application (26.3ms)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.6ms)
+
+
+
+SyntaxError - syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~:
+  app/views/games/_footer.html.haml:7:in `'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___4468600593088240777_70242595941360'
+
+Started POST "/__better_errors/368ab279e49e82ca/variables" for ::1 at 2020-07-03 15:28:51 +0900
+Started GET "/" for ::1 at 2020-07-03 15:28:59 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (10.3ms)
+  Rendered games/_footer.html.haml (6.5ms)
+  Rendered games/index.html.haml within layouts/application (30.9ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.6ms)
+
+
+
+SyntaxError - syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~:
+  app/views/games/_footer.html.haml:7:in `'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___4468600593088240777_70242582916600'
+
+Started POST "/__better_errors/ed3f7904beb47db0/variables" for ::1 at 2020-07-03 15:28:59 +0900
+Started GET "/" for ::1 at 2020-07-03 15:29:07 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.7ms)
+  Rendered games/_footer.html.haml (2.9ms)
+  Rendered games/index.html.haml within layouts/application (22.3ms)
+Completed 200 OK in 150ms (Views: 143.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:29:36 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.7ms)
+  Rendered games/_footer.html.haml (12.9ms)
+  Rendered games/index.html.haml within layouts/application (35.6ms)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 0.4ms)
+
+
+
+ActionView::Template::Error - Illegal nesting: content can't be both given on the same line as %span and nested within it.:
+  app/views/games/_footer.html.haml:5:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___4468600593088240777_70242583543120'
+
+Started POST "/__better_errors/14265f7a184dc389/variables" for ::1 at 2020-07-03 15:29:36 +0900
+Started GET "/" for ::1 at 2020-07-03 15:29:43 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.3ms)
+  Rendered games/_footer.html.haml (3.3ms)
+  Rendered games/index.html.haml within layouts/application (21.6ms)
+Completed 200 OK in 159ms (Views: 153.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:30:30 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.6ms)
+  Rendered games/_footer.html.haml (2.2ms)
+  Rendered games/index.html.haml within layouts/application (19.6ms)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.5ms)
+
+
+
+ActionView::Template::Error - Inconsistent indentation: 4 spaces used for indentation, but the rest of the document was indented using 3 spaces.:
+  app/views/games/_footer.html.haml:3:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___4468600593088240777_70242672901380'
+
+Started POST "/__better_errors/a395bc6fae512b5c/variables" for ::1 at 2020-07-03 15:30:30 +0900
+Started GET "/" for ::1 at 2020-07-03 15:30:58 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (9.8ms)
+  Rendered games/_footer.html.haml (5.1ms)
+  Rendered games/index.html.haml within layouts/application (25.7ms)
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.6ms)
+
+
+
+ActionView::Template::Error - Illegal nesting: content can't be both given on the same line as %span and nested within it.:
+  app/views/games/_footer.html.haml:5:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___4468600593088240777_70242661850540'
+
+Started POST "/__better_errors/a99cbf1fe971f743/variables" for ::1 at 2020-07-03 15:30:58 +0900
+Started GET "/" for ::1 at 2020-07-03 15:31:06 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.9ms)
+  Rendered games/_footer.html.haml (3.5ms)
+  Rendered games/index.html.haml within layouts/application (27.2ms)
+Completed 200 OK in 163ms (Views: 156.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:31:09 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (12.0ms)
+  Rendered games/_footer.html.haml (6.6ms)
+  Rendered games/index.html.haml within layouts/application (26.5ms)
+Completed 200 OK in 168ms (Views: 163.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:31:10 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (14.7ms)
+  Rendered games/_footer.html.haml (6.0ms)
+  Rendered games/index.html.haml within layouts/application (34.7ms)
+Completed 200 OK in 280ms (Views: 273.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:39:53 +0900
+  [1m[35m (19.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (23.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (71.7ms)
+  Rendered games/_footer.html.haml (19.2ms)
+  Rendered games/index.html.haml within layouts/application (157.0ms)
+Completed 200 OK in 610ms (Views: 557.7ms | ActiveRecord: 23.2ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:40:30 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (10.2ms)
+  Rendered games/_footer.html.haml (5.7ms)
+  Rendered games/index.html.haml within layouts/application (27.4ms)
+Completed 200 OK in 160ms (Views: 156.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:40:33 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (9.7ms)
+  Rendered games/_footer.html.haml (6.1ms)
+  Rendered games/index.html.haml within layouts/application (28.1ms)
+Completed 200 OK in 165ms (Views: 159.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:45:23 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.4ms)
+  Rendered games/_footer.html.haml (5.1ms)
+  Rendered games/index.html.haml within layouts/application (25.1ms)
+Completed 200 OK in 147ms (Views: 141.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:45:31 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (6.6ms)
+  Rendered games/_footer.html.haml (4.5ms)
+  Rendered games/index.html.haml within layouts/application (20.6ms)
+Completed 200 OK in 126ms (Views: 120.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:47:30 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.2ms)
+  Rendered games/_footer.html.haml (5.9ms)
+  Rendered games/index.html.haml within layouts/application (26.7ms)
+Completed 200 OK in 163ms (Views: 157.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:48:50 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.4ms)
+  Rendered games/_footer.html.haml (3.3ms)
+  Rendered games/index.html.haml within layouts/application (20.7ms)
+Completed 200 OK in 1813ms (Views: 1807.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:49:26 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (28.9ms)
+  Rendered games/_footer.html.haml (4.3ms)
+  Rendered games/index.html.haml within layouts/application (45.2ms)
+Completed 200 OK in 1539ms (Views: 1531.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:53:35 +0900
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (50.1ms)
+  Rendered games/_footer.html.haml (345.7ms)
+  Rendered games/index.html.haml within layouts/application (412.3ms)
+Completed 500 Internal Server Error in 458ms (ActiveRecord: 5.8ms)
+
+
+
+ActionView::Template::Error - undefined method `fa_icon' for #<#<Class:0x00007fbb317b97f8>:0x00007fbb2e8dd2b8>:
+  app/views/games/_footer.html.haml:5:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___1478058454833374362_70220982899740'
+
+Started POST "/__better_errors/5a0b01978eb33870/variables" for ::1 at 2020-07-03 15:53:35 +0900
+Started GET "/" for ::1 at 2020-07-03 15:56:23 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (41.7ms)
+  Rendered games/_footer.html.haml (7.3ms)
+  Rendered games/index.html.haml within layouts/application (65.3ms)
+Completed 500 Internal Server Error in 1020ms (ActiveRecord: 6.2ms)
+
+
+
+ActionView::Template::Error - File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/tonystark/Desktop/redchaps/app/assets/config
+  /Users/tonystark/Desktop/redchaps/app/assets/images
+  /Users/tonystark/Desktop/redchaps/app/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/momentjs-rails-2.20.1/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.3/app/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/node_modules:
+  app/views/layouts/application.html.haml:12:in `view template'
+
+Started POST "/__better_errors/ad7f45ad733e53bc/variables" for ::1 at 2020-07-03 15:56:24 +0900
+Started GET "/" for ::1 at 2020-07-03 15:56:56 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (6.2ms)
+  Rendered games/_footer.html.haml (5.0ms)
+  Rendered games/index.html.haml within layouts/application (25.8ms)
+Completed 500 Internal Server Error in 1333ms (ActiveRecord: 0.4ms)
+
+
+
+ActionView::Template::Error - File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/tonystark/Desktop/redchaps/app/assets/config
+  /Users/tonystark/Desktop/redchaps/app/assets/images
+  /Users/tonystark/Desktop/redchaps/app/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/momentjs-rails-2.20.1/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.3/app/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/node_modules:
+  app/views/layouts/application.html.haml:13:in `view template'
+
+Started POST "/__better_errors/41195d817fae6187/variables" for ::1 at 2020-07-03 15:56:57 +0900
+Started GET "/" for ::1 at 2020-07-03 15:57:08 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (11.9ms)
+  Rendered games/_footer.html.haml (4.6ms)
+  Rendered games/index.html.haml within layouts/application (28.6ms)
+Completed 200 OK in 72ms (Views: 66.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 15:57:21 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (3.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (13.5ms)
+  Rendered games/_footer.html.haml (6.3ms)
+  Rendered games/index.html.haml within layouts/application (32.3ms)
+Completed 500 Internal Server Error in 308ms (ActiveRecord: 3.5ms)
+
+
+
+ActionView::Template::Error - File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/tonystark/Desktop/redchaps/app/assets/config
+  /Users/tonystark/Desktop/redchaps/app/assets/images
+  /Users/tonystark/Desktop/redchaps/app/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/momentjs-rails-2.20.1/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.3/app/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/node_modules:
+  app/views/layouts/application.html.haml:12:in `view template'
+
+Started POST "/__better_errors/477f5f879d3fa849/variables" for ::1 at 2020-07-03 15:57:21 +0900
+Started GET "/" for ::1 at 2020-07-03 15:57:51 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (10.6ms)
+  Rendered games/_footer.html.haml (5.9ms)
+  Rendered games/index.html.haml within layouts/application (27.6ms)
+Completed 500 Internal Server Error in 173ms (ActiveRecord: 0.5ms)
+
+
+
+ActionView::Template::Error - File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/tonystark/Desktop/redchaps/app/assets/config
+  /Users/tonystark/Desktop/redchaps/app/assets/images
+  /Users/tonystark/Desktop/redchaps/app/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/momentjs-rails-2.20.1/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.3/app/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/node_modules:
+  app/views/layouts/application.html.haml:11:in `view template'
+
+Started POST "/__better_errors/b3f65e2d40351992/variables" for ::1 at 2020-07-03 15:57:51 +0900
+Started GET "/" for ::1 at 2020-07-03 15:59:39 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (39.4ms)
+  Rendered games/_footer.html.haml (329.4ms)
+  Rendered games/index.html.haml within layouts/application (384.6ms)
+Completed 500 Internal Server Error in 425ms (ActiveRecord: 4.3ms)
+
+
+
+ActionView::Template::Error - undefined method `fa_icon' for #<#<Class:0x00007f8943495498>:0x00007f8943466a08>:
+  app/views/games/_footer.html.haml:5:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___1997615907412999237_70113758064940'
+
+Started POST "/__better_errors/069dbe3809778465/variables" for ::1 at 2020-07-03 15:59:40 +0900
+Started GET "/" for ::1 at 2020-07-03 16:00:56 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (12.1ms)
+  Rendered games/_footer.html.haml (5.5ms)
+  Rendered games/index.html.haml within layouts/application (33.7ms)
+Completed 200 OK in 5285ms (Views: 5277.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:03:40 +0900
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (60.1ms)
+  Rendered games/_footer.html.haml (12.3ms)
+  Rendered games/index.html.haml within layouts/application (90.3ms)
+Completed 500 Internal Server Error in 934ms (ActiveRecord: 5.9ms)
+
+
+
+ActionView::Template::Error - File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/tonystark/Desktop/redchaps/app/assets/config
+  /Users/tonystark/Desktop/redchaps/app/assets/images
+  /Users/tonystark/Desktop/redchaps/app/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/momentjs-rails-2.20.1/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.3/app/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/node_modules:
+  app/views/layouts/application.html.haml:11:in `view template'
+
+Started POST "/__better_errors/5c05519c476756e0/variables" for ::1 at 2020-07-03 16:03:41 +0900
+Started GET "/" for ::1 at 2020-07-03 16:04:56 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (21.4ms)
+  Rendered games/_footer.html.haml (9.1ms)
+  Rendered games/index.html.haml within layouts/application (56.1ms)
+Completed 500 Internal Server Error in 227ms (ActiveRecord: 1.1ms)
+
+
+
+ActionView::Template::Error - File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/tonystark/Desktop/redchaps/app/assets/config
+  /Users/tonystark/Desktop/redchaps/app/assets/images
+  /Users/tonystark/Desktop/redchaps/app/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/momentjs-rails-2.20.1/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.3/app/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/node_modules:
+  app/views/layouts/application.html.haml:11:in `view template'
+
+Started POST "/__better_errors/982249c8b3499763/variables" for ::1 at 2020-07-03 16:04:56 +0900
+Started GET "/" for ::1 at 2020-07-03 16:05:33 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (13.1ms)
+  Rendered games/_footer.html.haml (6.5ms)
+  Rendered games/index.html.haml within layouts/application (34.6ms)
+Completed 500 Internal Server Error in 224ms (ActiveRecord: 0.4ms)
+
+
+
+ActionView::Template::Error - File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/tonystark/Desktop/redchaps/app/assets/config
+  /Users/tonystark/Desktop/redchaps/app/assets/images
+  /Users/tonystark/Desktop/redchaps/app/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/momentjs-rails-2.20.1/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.3/app/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/node_modules:
+  app/views/layouts/application.html.haml:11:in `view template'
+
+Started POST "/__better_errors/f9032874d26b4648/variables" for ::1 at 2020-07-03 16:05:34 +0900
+Started GET "/" for ::1 at 2020-07-03 16:05:50 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (9.8ms)
+  Rendered games/_footer.html.haml (4.3ms)
+  Rendered games/index.html.haml within layouts/application (24.5ms)
+Completed 200 OK in 59ms (Views: 53.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:06:52 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (6.7ms)
+  Rendered games/_footer.html.haml (3.5ms)
+  Rendered games/index.html.haml within layouts/application (25.2ms)
+Completed 500 Internal Server Error in 176ms (ActiveRecord: 0.4ms)
+
+
+
+ActionView::Template::Error - File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/tonystark/Desktop/redchaps/app/assets/config
+  /Users/tonystark/Desktop/redchaps/app/assets/images
+  /Users/tonystark/Desktop/redchaps/app/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/momentjs-rails-2.20.1/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.3/app/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/node_modules:
+  app/views/layouts/application.html.haml:11:in `view template'
+
+Started POST "/__better_errors/e52a13273030b333/variables" for ::1 at 2020-07-03 16:06:53 +0900
+Started GET "/" for ::1 at 2020-07-03 16:07:10 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.8ms)
+  Rendered games/_footer.html.haml (4.3ms)
+  Rendered games/index.html.haml within layouts/application (22.8ms)
+Completed 500 Internal Server Error in 134ms (ActiveRecord: 0.4ms)
+
+
+
+ActionView::Template::Error - File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/tonystark/Desktop/redchaps/app/assets/config
+  /Users/tonystark/Desktop/redchaps/app/assets/images
+  /Users/tonystark/Desktop/redchaps/app/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/momentjs-rails-2.20.1/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.3/app/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/node_modules:
+  app/views/layouts/application.html.haml:11:in `view template'
+
+Started POST "/__better_errors/411c1e7722a6177e/variables" for ::1 at 2020-07-03 16:07:11 +0900
+Started GET "/" for ::1 at 2020-07-03 16:07:31 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (5.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (13.9ms)
+  Rendered games/_footer.html.haml (5.6ms)
+  Rendered games/index.html.haml within layouts/application (37.5ms)
+Completed 500 Internal Server Error in 221ms (ActiveRecord: 5.5ms)
+
+
+
+ActionView::Template::Error - File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/tonystark/Desktop/redchaps/app/assets/config
+  /Users/tonystark/Desktop/redchaps/app/assets/images
+  /Users/tonystark/Desktop/redchaps/app/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/momentjs-rails-2.20.1/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.3/app/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/node_modules:
+  app/views/layouts/application.html.haml:11:in `view template'
+
+Started POST "/__better_errors/fbf4ff1d0555f987/variables" for ::1 at 2020-07-03 16:07:31 +0900
+Started GET "/" for ::1 at 2020-07-03 16:07:50 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.3ms)
+  Rendered games/_footer.html.haml (4.1ms)
+  Rendered games/index.html.haml within layouts/application (24.1ms)
+Completed 500 Internal Server Error in 156ms (ActiveRecord: 0.6ms)
+
+
+
+ActionView::Template::Error - File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/tonystark/Desktop/redchaps/app/assets/config
+  /Users/tonystark/Desktop/redchaps/app/assets/images
+  /Users/tonystark/Desktop/redchaps/app/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/momentjs-rails-2.20.1/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.3/app/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/node_modules:
+  app/views/layouts/application.html.haml:11:in `view template'
+
+Started POST "/__better_errors/db53721e0c463098/variables" for ::1 at 2020-07-03 16:07:50 +0900
+Started GET "/" for ::1 at 2020-07-03 16:10:36 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (10.4ms)
+  Rendered games/_footer.html.haml (19.9ms)
+  Rendered games/index.html.haml within layouts/application (46.7ms)
+Completed 500 Internal Server Error in 255ms (ActiveRecord: 0.4ms)
+
+
+
+ActionView::Template::Error - File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/tonystark/Desktop/redchaps/app/assets/config
+  /Users/tonystark/Desktop/redchaps/app/assets/images
+  /Users/tonystark/Desktop/redchaps/app/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/momentjs-rails-2.20.1/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.3/app/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/node_modules:
+  app/views/layouts/application.html.haml:11:in `view template'
+
+Started POST "/__better_errors/5af7c43e619795db/variables" for ::1 at 2020-07-03 16:10:36 +0900
+Started GET "/" for ::1 at 2020-07-03 16:11:03 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.4ms)
+  Rendered games/_footer.html.haml (4.0ms)
+  Rendered games/index.html.haml within layouts/application (23.4ms)
+Completed 500 Internal Server Error in 326ms (ActiveRecord: 0.4ms)
+
+
+
+ActionView::Template::Error - File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/tonystark/Desktop/redchaps/app/assets/config
+  /Users/tonystark/Desktop/redchaps/app/assets/images
+  /Users/tonystark/Desktop/redchaps/app/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/momentjs-rails-2.20.1/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.3/app/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/node_modules:
+  app/views/layouts/application.html.haml:12:in `view template'
+
+Started POST "/__better_errors/dd5205cd436d0f6c/variables" for ::1 at 2020-07-03 16:11:03 +0900
+Started GET "/" for ::1 at 2020-07-03 16:11:13 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (14.4ms)
+  Rendered games/_footer.html.haml (9.4ms)
+  Rendered games/index.html.haml within layouts/application (37.6ms)
+Completed 500 Internal Server Error in 212ms (ActiveRecord: 0.7ms)
+
+
+
+ActionView::Template::Error - File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/tonystark/Desktop/redchaps/app/assets/config
+  /Users/tonystark/Desktop/redchaps/app/assets/images
+  /Users/tonystark/Desktop/redchaps/app/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/momentjs-rails-2.20.1/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.3/app/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/node_modules:
+  app/views/layouts/application.html.haml:12:in `view template'
+
+Started POST "/__better_errors/48829704db46b05c/variables" for ::1 at 2020-07-03 16:11:13 +0900
+Started GET "/" for ::1 at 2020-07-03 16:11:25 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (6.5ms)
+  Rendered games/_footer.html.haml (3.7ms)
+  Rendered games/index.html.haml within layouts/application (18.5ms)
+Completed 200 OK in 55ms (Views: 49.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:11:34 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.1ms)
+  Rendered games/_footer.html.haml (5.3ms)
+  Rendered games/index.html.haml within layouts/application (24.1ms)
+Completed 500 Internal Server Error in 158ms (ActiveRecord: 0.4ms)
+
+
+
+ActionView::Template::Error - File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/tonystark/Desktop/redchaps/app/assets/config
+  /Users/tonystark/Desktop/redchaps/app/assets/images
+  /Users/tonystark/Desktop/redchaps/app/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/momentjs-rails-2.20.1/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/fullcalendar-rails-3.9.0.0/vendor/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.3/app/assets/javascripts
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.4.3/lib/assets/compiled
+  /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/tonystark/Desktop/redchaps/node_modules:
+  app/views/layouts/application.html.haml:11:in `view template'
+
+Started POST "/__better_errors/11075899dfc27996/variables" for ::1 at 2020-07-03 16:11:34 +0900
+Started GET "/" for ::1 at 2020-07-03 16:15:46 +0900
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (59.6ms)
+  Rendered games/_footer.html.haml (7.2ms)
+  Rendered games/index.html.haml within layouts/application (86.1ms)
+Completed 200 OK in 1523ms (Views: 1498.4ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:17:09 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (34.1ms)
+  Rendered games/_footer.html.haml (11.8ms)
+  Rendered games/index.html.haml within layouts/application (99.2ms)
+Completed 200 OK in 408ms (Views: 400.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:17:26 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (12.6ms)
+  Rendered games/_footer.html.haml (18.2ms)
+  Rendered games/index.html.haml within layouts/application (44.4ms)
+Completed 200 OK in 165ms (Views: 160.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:17:41 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (7.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (41.9ms)
+  Rendered games/_footer.html.haml (6.8ms)
+  Rendered games/index.html.haml within layouts/application (60.3ms)
+Completed 200 OK in 1041ms (Views: 1016.7ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:17:44 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (6.9ms)
+  Rendered games/_footer.html.haml (4.2ms)
+  Rendered games/index.html.haml within layouts/application (20.0ms)
+Completed 200 OK in 112ms (Views: 108.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:21:15 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (20.5ms)
+  Rendered games/_footer.html.haml (5.9ms)
+  Rendered games/index.html.haml within layouts/application (45.9ms)
+Completed 200 OK in 208ms (Views: 198.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:22:28 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (10.4ms)
+  Rendered games/_footer.html.haml (5.1ms)
+  Rendered games/index.html.haml within layouts/application (29.7ms)
+Completed 200 OK in 160ms (Views: 153.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:23:12 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.0ms)
+  Rendered games/_footer.html.haml (4.8ms)
+  Rendered games/index.html.haml within layouts/application (23.4ms)
+Completed 200 OK in 211ms (Views: 205.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:25:49 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.4ms)
+  Rendered games/_footer.html.haml (4.4ms)
+  Rendered games/index.html.haml within layouts/application (27.0ms)
+Completed 200 OK in 203ms (Views: 196.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:26:05 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.5ms)
+  Rendered games/_footer.html.haml (6.2ms)
+  Rendered games/index.html.haml within layouts/application (29.7ms)
+Completed 200 OK in 162ms (Views: 155.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:28:36 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (22.8ms)
+  Rendered games/_footer.html.haml (837.8ms)
+  Rendered games/index.html.haml within layouts/application (885.2ms)
+Completed 500 Internal Server Error in 927ms (ActiveRecord: 0.8ms)
+
+
+
+ActionView::Template::Error - undefined method `fa_icon' for #<#<Class:0x00007ff6215953e8>:0x00007ff6224bb2a0>:
+  app/views/games/_footer.html.haml:5:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___1510212742363547500_70347557035460'
+
+Started POST "/__better_errors/5cbe460e420d6c4c/variables" for ::1 at 2020-07-03 16:28:37 +0900
+Started POST "/__better_errors/5cbe460e420d6c4c/variables" for ::1 at 2020-07-03 16:28:45 +0900
+Started GET "/" for ::1 at 2020-07-03 16:28:59 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (6.5ms)
+  Rendered games/_footer.html.haml (2.8ms)
+  Rendered games/index.html.haml within layouts/application (19.7ms)
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.4ms)
+
+
+
+ActionView::Template::Error - Illegal nesting: content can't be both given on the same line as %span and nested within it.:
+  app/views/games/_footer.html.haml:5:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___1510212742363547500_70347566465240'
+
+Started POST "/__better_errors/d39da0974e37d0c8/variables" for ::1 at 2020-07-03 16:28:59 +0900
+Started GET "/" for ::1 at 2020-07-03 16:29:10 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (9.5ms)
+  Rendered games/_footer.html.haml (362.5ms)
+  Rendered games/index.html.haml within layouts/application (384.3ms)
+Completed 500 Internal Server Error in 417ms (ActiveRecord: 1.0ms)
+
+
+
+ActionView::Template::Error - undefined method `fa_icon' for #<#<Class:0x00007ff6215953e8>:0x00007ff62b2c2c88>:
+  app/views/games/_footer.html.haml:5:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___1510212742363547500_70347631500120'
+
+Started POST "/__better_errors/f77fbf500f1b036f/variables" for ::1 at 2020-07-03 16:29:10 +0900
+Started GET "/" for ::1 at 2020-07-03 16:29:15 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.4ms)
+  Rendered games/_footer.html.haml (3.7ms)
+  Rendered games/index.html.haml within layouts/application (23.1ms)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.4ms)
+
+
+
+ActionView::Template::Error - Illegal nesting: content can't be both given on the same line as %span and nested within it.:
+  app/views/games/_footer.html.haml:5:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___1510212742363547500_70347599904520'
+
+Started POST "/__better_errors/732da133c452fdd0/variables" for ::1 at 2020-07-03 16:29:16 +0900
+Started GET "/" for ::1 at 2020-07-03 16:29:21 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.7ms)
+  Rendered games/_footer.html.haml (2.3ms)
+  Rendered games/index.html.haml within layouts/application (23.4ms)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.4ms)
+
+
+
+ActionView::Template::Error - Illegal nesting: content can't be both given on the same line as %span and nested within it.:
+  app/views/games/_footer.html.haml:5:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___1510212742363547500_70347626147180'
+
+Started POST "/__better_errors/9b330d26228055fa/variables" for ::1 at 2020-07-03 16:29:21 +0900
+Started GET "/" for ::1 at 2020-07-03 16:29:29 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (6.9ms)
+  Rendered games/_footer.html.haml (329.0ms)
+  Rendered games/index.html.haml within layouts/application (351.1ms)
+Completed 500 Internal Server Error in 382ms (ActiveRecord: 0.5ms)
+
+
+
+ActionView::Template::Error - undefined method `fa_icon' for #<#<Class:0x00007ff6215953e8>:0x00007ff623732f78>:
+  app/views/games/_footer.html.haml:5:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___1510212742363547500_70347566718000'
+
+Started POST "/__better_errors/b3aaaf0723d48c6f/variables" for ::1 at 2020-07-03 16:29:29 +0900
+Started GET "/" for ::1 at 2020-07-03 16:30:31 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.8ms)
+  Rendered games/_footer.html.haml (5.6ms)
+  Rendered games/index.html.haml within layouts/application (29.3ms)
+Completed 200 OK in 190ms (Views: 184.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:31:10 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.9ms)
+  Rendered games/_footer.html.haml (2.8ms)
+  Rendered games/index.html.haml within layouts/application (22.7ms)
+Completed 200 OK in 152ms (Views: 147.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:31:53 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (6.0ms)
+  Rendered games/_footer.html.haml (4.9ms)
+  Rendered games/index.html.haml within layouts/application (21.0ms)
+Completed 200 OK in 160ms (Views: 153.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:32:32 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.0ms)
+  Rendered games/_footer.html.haml (4.2ms)
+  Rendered games/index.html.haml within layouts/application (25.2ms)
+Completed 200 OK in 152ms (Views: 147.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:33:16 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.5ms)
+  Rendered games/_footer.html.haml (7.3ms)
+  Rendered games/index.html.haml within layouts/application (30.5ms)
+Completed 200 OK in 2449ms (Views: 2445.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:34:18 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (10.1ms)
+  Rendered games/_footer.html.haml (4.9ms)
+  Rendered games/index.html.haml within layouts/application (28.4ms)
+Completed 200 OK in 272ms (Views: 266.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:35:10 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.1ms)
+  Rendered games/_footer.html.haml (4.5ms)
+  Rendered games/index.html.haml within layouts/application (33.5ms)
+Completed 200 OK in 216ms (Views: 208.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-03 16:36:24 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (13.0ms)
+  Rendered games/_footer.html.haml (5.7ms)
+  Rendered games/index.html.haml within layouts/application (34.2ms)
+Completed 200 OK in 183ms (Views: 174.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 09:20:21 +0900
+  [1m[35m (25.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (29.8ms)
+  Rendered games/_footer.html.haml (14.1ms)
+  Rendered games/index.html.haml within layouts/application (94.7ms)
+Completed 200 OK in 863ms (Views: 801.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 09:20:26 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (7.3ms)
+  Rendered games/_footer.html.haml (9.1ms)
+  Rendered games/index.html.haml within layouts/application (29.1ms)
+Completed 200 OK in 162ms (Views: 156.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 09:20:42 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (9.4ms)
+  Rendered games/_footer.html.haml (11.9ms)
+  Rendered games/index.html.haml within layouts/application (31.7ms)
+Completed 200 OK in 79ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 09:21:06 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (50.7ms)
+  Rendered games/_footer.html.haml (4.7ms)
+  Rendered games/index.html.haml within layouts/application (71.8ms)
+Completed 200 OK in 110ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 09:21:18 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (10.2ms)
+  Rendered games/_footer.html.haml (9.3ms)
+  Rendered games/index.html.haml within layouts/application (34.7ms)
+Completed 200 OK in 232ms (Views: 226.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 13:34:29 +0900
+  [1m[35m (28.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (25.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (70.2ms)
+  Rendered games/_footer.html.haml (12.9ms)
+  Rendered games/index.html.haml within layouts/application (140.0ms)
+Completed 200 OK in 420ms (Views: 366.0ms | ActiveRecord: 25.2ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 13:34:52 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (9.5ms)
+  Rendered games/_footer.html.haml (6.3ms)
+  Rendered games/index.html.haml within layouts/application (26.7ms)
+Completed 200 OK in 139ms (Views: 133.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 13:37:04 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.5ms)
+  Rendered games/_footer.html.haml (5.4ms)
+  Rendered games/index.html.haml within layouts/application (26.0ms)
+Completed 200 OK in 181ms (Views: 174.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 13:38:41 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (3.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (46.4ms)
+  Rendered games/_footer.html.haml (935.7ms)
+  Rendered games/index.html.haml within layouts/application (1021.5ms)
+Completed 500 Internal Server Error in 1073ms (ActiveRecord: 3.7ms)
+
+
+
+ActionView::Template::Error - undefined method `fa_icon' for #<#<Class:0x00007ff6215953e8>:0x00007ff621799d60>:
+  app/views/games/_footer.html.haml:6:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___1510212742363547500_70347550163780'
+
+Started POST "/__better_errors/b87364424120f54b/variables" for ::1 at 2020-07-04 13:38:42 +0900
+Started GET "/" for ::1 at 2020-07-04 13:38:49 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (9.7ms)
+  Rendered games/_footer.html.haml (403.8ms)
+  Rendered games/index.html.haml within layouts/application (425.7ms)
+Completed 500 Internal Server Error in 466ms (ActiveRecord: 0.6ms)
+
+
+
+ActionView::Template::Error - undefined method `fa_icon' for #<#<Class:0x00007ff6215953e8>:0x00007ff62af10e28>:
+  app/views/games/_footer.html.haml:6:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___1510212742363547500_70347629563000'
+
+Started POST "/__better_errors/29e8b306294fda72/variables" for ::1 at 2020-07-04 13:38:49 +0900
+Started GET "/" for ::1 at 2020-07-04 13:41:35 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (14.0ms)
+  Rendered games/_footer.html.haml (10.9ms)
+  Rendered games/index.html.haml within layouts/application (42.7ms)
+Completed 200 OK in 282ms (Views: 275.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 13:41:40 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (7.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (14.8ms)
+  Rendered games/_footer.html.haml (5.3ms)
+  Rendered games/index.html.haml within layouts/application (28.6ms)
+Completed 200 OK in 181ms (Views: 166.7ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 13:42:30 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (16.9ms)
+  Rendered games/_footer.html.haml (11.0ms)
+  Rendered games/index.html.haml within layouts/application (67.8ms)
+Completed 200 OK in 362ms (Views: 357.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 13:42:56 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (3.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (15.5ms)
+  Rendered games/_footer.html.haml (10.4ms)
+  Rendered games/index.html.haml within layouts/application (53.0ms)
+Completed 200 OK in 259ms (Views: 250.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 14:02:12 +0900
+  [1m[35m (33.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (59.9ms)
+  Rendered games/_footer.html.haml (7.1ms)
+  Rendered games/index.html.haml within layouts/application (89.8ms)
+Completed 200 OK in 2145ms (Views: 2106.8ms | ActiveRecord: 19.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 14:02:55 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (12.6ms)
+  Rendered games/_footer.html.haml (8.8ms)
+  Rendered games/index.html.haml within layouts/application (35.4ms)
+Completed 200 OK in 204ms (Views: 197.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 14:03:56 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.5ms)
+  Rendered games/_footer.html.haml (5.1ms)
+  Rendered games/index.html.haml within layouts/application (24.4ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.4ms)
+
+
+
+SyntaxError - syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:5: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:5: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:8: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~:
+  app/views/games/_footer.html.haml:4:in `'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___196359538513871735_70294857074800'
+
+Started POST "/__better_errors/4f791a8466a28ab7/variables" for ::1 at 2020-07-04 14:03:56 +0900
+Started GET "/" for ::1 at 2020-07-04 14:04:20 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.5ms)
+  Rendered games/_footer.html.haml (4.9ms)
+  Rendered games/index.html.haml within layouts/application (23.1ms)
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.5ms)
+
+
+
+SyntaxError - syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:5: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:5: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:8: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~:
+  app/views/games/_footer.html.haml:3:in `'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___196359538513871735_70294901046740'
+
+Started POST "/__better_errors/bbff3ad9c535b943/variables" for ::1 at 2020-07-04 14:04:20 +0900
+Started GET "/" for ::1 at 2020-07-04 14:04:42 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (5.8ms)
+  Rendered games/_footer.html.haml (4.5ms)
+  Rendered games/index.html.haml within layouts/application (21.9ms)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.4ms)
+
+
+
+SyntaxError - syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:7: syntax error, unexpected keyword_end, expecting ')'
+.../span>\n</div>\n".freeze);; end;; _hamlout.buffer << ((::Ham...
+...                            ^~~
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:7: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:7: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/tonystark/Desktop/redchaps/app/views/games/_footer.html.haml:10: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~:
+  app/views/games/_footer.html.haml:7:in `'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___196359538513871735_70294902891340'
+
+Started POST "/__better_errors/5c99764b79c3d661/variables" for ::1 at 2020-07-04 14:04:42 +0900
+Started GET "/" for ::1 at 2020-07-04 14:04:51 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.9ms)
+  Rendered games/_footer.html.haml (408.4ms)
+  Rendered games/index.html.haml within layouts/application (429.2ms)
+Completed 500 Internal Server Error in 466ms (ActiveRecord: 0.6ms)
+
+
+
+ActionView::Template::Error - undefined method `fa_icon' for #<#<Class:0x00007fdd9b2f7cb0>:0x00007fdd996cf740>:
+  app/views/games/_footer.html.haml:6:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___196359538513871735_70294869305380'
+
+Started POST "/__better_errors/d50b9b28506d4751/variables" for ::1 at 2020-07-04 14:04:51 +0900
+Started GET "/" for ::1 at 2020-07-04 14:04:57 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (9.3ms)
+  Rendered games/_footer.html.haml (6.4ms)
+  Rendered games/index.html.haml within layouts/application (34.4ms)
+Completed 200 OK in 254ms (Views: 248.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 14:05:01 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (6.6ms)
+  Rendered games/_footer.html.haml (4.1ms)
+  Rendered games/index.html.haml within layouts/application (20.4ms)
+Completed 200 OK in 159ms (Views: 147.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 14:05:01 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (3.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (16.7ms)
+  Rendered games/_footer.html.haml (4.7ms)
+  Rendered games/index.html.haml within layouts/application (33.5ms)
+Completed 200 OK in 228ms (Views: 218.3ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 14:05:26 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (14.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (27.6ms)
+  Rendered games/_footer.html.haml (6.8ms)
+  Rendered games/index.html.haml within layouts/application (50.2ms)
+Started GET "/" for ::1 at 2020-07-04 14:05:26 +0900
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (10.7ms)
+  Rendered games/_footer.html.haml (5.0ms)
+  Rendered games/index.html.haml within layouts/application (30.4ms)
+Started GET "/" for ::1 at 2020-07-04 14:05:26 +0900
+  [1m[35m (2.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (4.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (11.5ms)
+  Rendered games/_footer.html.haml (3.7ms)
+  Rendered games/index.html.haml within layouts/application (29.1ms)
+Completed 200 OK in 578ms (Views: 555.4ms | ActiveRecord: 14.6ms)
+
+
+Completed 200 OK in 260ms (Views: 250.3ms | ActiveRecord: 4.2ms)
+
+
+Completed 200 OK in 429ms (Views: 422.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 14:07:11 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (6.5ms)
+  Rendered games/_footer.html.haml (6.5ms)
+  Rendered games/index.html.haml within layouts/application (29.3ms)
+Completed 200 OK in 252ms (Views: 243.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 14:07:14 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (55.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (65.1ms)
+  Rendered games/_footer.html.haml (3.1ms)
+  Rendered games/index.html.haml within layouts/application (80.5ms)
+Completed 200 OK in 266ms (Views: 207.2ms | ActiveRecord: 55.7ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 14:07:51 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (7.0ms)
+  Rendered games/_footer.html.haml (5.0ms)
+  Rendered games/index.html.haml within layouts/application (27.0ms)
+Completed 200 OK in 176ms (Views: 168.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 14:08:03 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (9.2ms)
+  Rendered games/_footer.html.haml (4.7ms)
+  Rendered games/index.html.haml within layouts/application (25.9ms)
+Completed 200 OK in 162ms (Views: 155.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 14:08:11 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (8.9ms)
+  Rendered games/_footer.html.haml (4.3ms)
+  Rendered games/index.html.haml within layouts/application (43.8ms)
+Completed 200 OK in 200ms (Views: 193.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-04 14:08:28 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (6.5ms)
+  Rendered games/_footer.html.haml (2.7ms)
+  Rendered games/index.html.haml within layouts/application (22.9ms)
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.4ms)
+
+
+
+ActionView::Template::Error - There's no Ruby code for = to evaluate.:
+  app/views/games/_footer.html.haml:7:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___196359538513871735_70294902583080'
+
+Started POST "/__better_errors/553f3621e10ba621/variables" for ::1 at 2020-07-04 14:08:28 +0900
+Started GET "/" for ::1 at 2020-07-04 14:08:35 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (16.3ms)
+  Rendered games/_footer.html.haml (5.1ms)
+  Rendered games/index.html.haml within layouts/application (33.7ms)
+Completed 200 OK in 207ms (Views: 201.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-11 08:49:28 +0900
+  [1m[35m (2.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (15.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (58.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (146.2ms)
+  Rendered games/_footer.html.haml (9.4ms)
+  Rendered games/index.html.haml within layouts/application (239.7ms)
+Completed 200 OK in 2017ms (Views: 1909.2ms | ActiveRecord: 91.8ms)
+
+
+Started GET "/" for ::1 at 2020-07-11 09:01:00 +0900
+  [1m[35m (1.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (4.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (32.4ms)
+  Rendered games/_footer.html.haml (10.0ms)
+  Rendered games/index.html.haml within layouts/application (76.5ms)
+Completed 200 OK in 2970ms (Views: 2952.9ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-11 09:01:16 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (4.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (10.7ms)
+  Rendered games/_footer.html.haml (4.3ms)
+  Rendered games/index.html.haml within layouts/application (25.8ms)
+Completed 200 OK in 2273ms (Views: 2261.6ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-11 09:01:38 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (34.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (43.5ms)
+  Rendered games/_footer.html.haml (7.0ms)
+  Rendered games/index.html.haml within layouts/application (63.8ms)
+Completed 200 OK in 2096ms (Views: 2055.9ms | ActiveRecord: 34.2ms)
+
+
+Started GET "/" for ::1 at 2020-07-11 09:03:14 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (15.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (25.4ms)
+  Rendered games/_footer.html.haml (8.3ms)
+  Rendered games/index.html.haml within layouts/application (59.5ms)
+Completed 200 OK in 323ms (Views: 299.6ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-11 09:04:29 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (44.6ms)
+  Rendered games/index.html.haml within layouts/application (79.8ms)
+Completed 500 Internal Server Error in 127ms (ActiveRecord: 0.0ms)
+
+
+
+ActionView::Template::Error - Inconsistent indentation: 6 spaces used for indentation, but the rest of the document was indented using 4 spaces.:
+  app/views/games/_header.html.haml:3:in `view template'
+  app/views/games/index.html.haml:1:in `_app_views_games_index_html_haml__571325024619496161_70285286221700'
+
+Started POST "/__better_errors/0c8577ea83469aab/variables" for ::1 at 2020-07-11 09:04:29 +0900
+Started GET "/" for ::1 at 2020-07-11 09:04:39 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (14.9ms)
+  Rendered games/_footer.html.haml (6.4ms)
+  Rendered games/index.html.haml within layouts/application (40.4ms)
+Completed 200 OK in 307ms (Views: 298.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-11 09:05:30 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (4.9ms)
+  Rendered games/index.html.haml within layouts/application (75.0ms)
+Completed 500 Internal Server Error in 114ms (ActiveRecord: 0.0ms)
+
+
+
+ActionView::Template::Error - The line was indented 2 levels deeper than the previous line.:
+  app/views/games/_header.html.haml:3:in `view template'
+  app/views/games/index.html.haml:1:in `_app_views_games_index_html_haml__571325024619496161_70285279990400'
+
+Started POST "/__better_errors/d5e0295f0a5599ea/variables" for ::1 at 2020-07-11 09:05:31 +0900
+Started GET "/" for ::1 at 2020-07-11 09:05:51 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (3.5ms)
+  Rendered games/index.html.haml within layouts/application (14.1ms)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms)
+
+
+
+ActionView::Template::Error - The line was indented 2 levels deeper than the previous line.:
+  app/views/games/_header.html.haml:11:in `view template'
+  app/views/games/index.html.haml:1:in `_app_views_games_index_html_haml__571325024619496161_70285267718940'
+
+Started POST "/__better_errors/b302bcb03091dd1e/variables" for ::1 at 2020-07-11 09:05:51 +0900
+Started GET "/" for ::1 at 2020-07-11 09:06:02 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:5
+  Rendered games/_header.html.haml (6.4ms)
+  Rendered games/_footer.html.haml (4.0ms)
+  Rendered games/index.html.haml within layouts/application (26.0ms)
+Completed 200 OK in 165ms (Views: 161.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-11 09:06:49 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (8.5ms)
+  Rendered games/_footer.html.haml (6.4ms)
+  Rendered games/index.html.haml within layouts/application (30.2ms)
+Completed 200 OK in 292ms (Views: 286.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-11 09:07:34 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (9.1ms)
+  Rendered games/_footer.html.haml (5.1ms)
+  Rendered games/index.html.haml within layouts/application (36.1ms)
+Completed 200 OK in 2336ms (Views: 2329.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2020-07-11 09:11:48 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (7.3ms)
+  Rendered games/_footer.html.haml (3.9ms)
+  Rendered games/index.html.haml within layouts/application (36.8ms)
+Completed 200 OK in 2469ms (Views: 2464.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-11 09:16:21 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (15.4ms)
+  Rendered games/_footer.html.haml (6.1ms)
+  Rendered games/index.html.haml within layouts/application (48.2ms)
+Completed 200 OK in 2864ms (Views: 2855.1ms | ActiveRecord: 2.5ms)
+
+

@@ -66,7 +66,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'pry-rails'
 gem 'pry-byebug'
-gem 'font-awesome-sass'
+gem 'font-awesome-sass', '~> 5.13.0'
 gem 'haml-rails'
 gem 'jquery-rails'
 gem 'fullcalendar-rails'
