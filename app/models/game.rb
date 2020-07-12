@@ -4,6 +4,14 @@ class Game < ApplicationRecord
   belongs_to :user
   accepts_nested_attributes_for :address
 
+  validates :game_name, presence: true, length: { maximum: 40 }
+  validates :gamestart_datetime, presence: true
+  validates :gamestart_datetime, uniqueness: true
+  validates :gameball, presence: true
+  validates :cost, presence: true
+  validates :referee, presence: true
+
+
   enum prefectures:{
     "---":0,
     北海道:1,青森県:2,岩手県:3,宮城県:4,秋田県:5,山形県:6,福島県:7,

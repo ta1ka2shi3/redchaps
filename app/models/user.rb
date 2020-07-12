@@ -9,11 +9,12 @@ class User < ApplicationRecord
 
   validates :email, uniqueness: true
   # validates :email, :email_format => {:message => '正しいメールアドレスを入力してください'}
-  validates :last_name_kana, presence: true, length: { maximum: 35 }
-  validates :first_name_kana, presence: true, length: { maximum: 35 }
+  validates :last_name_kana, presence: true, length: { maximum: 35 },format: { with: /\A[\p{katakana}\p{blank}ー－]+\z/, message: 'はカタカナで入力して下さい。'}
+  validates :first_name_kana, presence: true, length: { maximum: 35 }, format: { with: /\A[\p{katakana}\p{blank}ー－]+\z/, message: 'はカタカナで入力して下さい。'}
   validates :last_name, presence: true, length: { maximum: 35 }
   validates :first_name, presence: true, length: { maximum: 35 }
-  validates :phone_number, presence: true, length: { in: 10..12  }
+  validates :phone_number, presence: true, length: { in: 10..12  }, format: { with: /\A\d{10,11}\z/, message: '10-11桁でハイフン（-）を入れないで下さい。'}
+  validates :phone_number, uniqueness: true
   validates :birthday, presence: true
 end
 
