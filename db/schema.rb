@@ -10,11 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_22_135358) do
+ActiveRecord::Schema.define(version: 2020_07_12_041155) do
 
   create_table "addresses", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.bigint "game_id", null: false
-    t.integer "postal_code"
+    t.bigint "game_id"
+    t.string "baseball_park", null: false
     t.string "prefectures", null: false
     t.string "municipality", null: false
     t.string "building", null: false
@@ -39,12 +39,12 @@ ActiveRecord::Schema.define(version: 2020_06_22_135358) do
     t.string "game_name", null: false
     t.datetime "gamestart_datetime", null: false
     t.integer "gameball", null: false
-    t.bigint "address_id", null: false
     t.integer "cost", null: false
     t.string "referee"
     t.text "important_point"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "address_id"
     t.index ["address_id"], name: "index_games_on_address_id"
     t.index ["user_id"], name: "index_games_on_user_id"
   end
@@ -68,4 +68,6 @@ ActiveRecord::Schema.define(version: 2020_06_22_135358) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "addresses", "games"
+  add_foreign_key "games", "addresses"
 end
