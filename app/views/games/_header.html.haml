@@ -4,7 +4,7 @@
     - if user_signed_in?
       .header__lists--right
         %li.header__right--btn
-          = link_to destroy_user_session_path, method: :delete
+          = link_to destroy_user_session_path, method: :delete do
             ログアウト
     -else 
       .header__lists--right

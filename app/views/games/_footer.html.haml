@@ -1,6 +1,13 @@
 .footer
-  %a
-  = link_to "#" do
-    .sellingBtn
-      %span.sellingBtn__text 申込
-      %span.sellingBtn__ball 
+  - if user_signed_in?
+    %a
+    = link_to new_games_path do
+      .sellingBtn
+        %span.sellingBtn__text 申込
+        %span.sellingBtn__ball
+  - else 
+    %a
+    = link_to  new_user_session_path do
+      .sellingBtn 
+        %span.sellingBtn__text 申込
+        %span.sellingBtn__ball
