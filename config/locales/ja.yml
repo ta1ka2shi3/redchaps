@@ -24,3 +24,12 @@ ja:
     am: "午前"
     pm: "午後"
 
+  attributes:
+    user:
+      team_name: "ニックネーム"
+      name_kana: "お名前（カタカナ）"
+      last_name_kana: "お名前 フリガナ"
+      password: "パスワード"
+      password_confirmation: "確認用パスワード"
+      remember_me: "ログインを記憶"
+      phone_number: "電話番号"

@@ -5,7 +5,6 @@ class CreateGames < ActiveRecord::Migration[5.2]
       t.string :game_name, null: false
       t.datetime :gamestart_datetime, null: false
       t.integer :gameball, null: false
-      t.references :address, null: false
       t.integer :cost, null: false
       t.string :referee
       t.text :important_point

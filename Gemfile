@@ -66,7 +66,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'pry-rails'
 gem 'pry-byebug'
-gem 'font-awesome-sass'
+gem 'font-awesome-sass', '~> 5.13.0'
 gem 'haml-rails'
 gem 'jquery-rails'
 gem 'fullcalendar-rails'
@@ -75,6 +75,8 @@ gem 'fog-aws'
 gem 'devise'
 gem 'devise-i18n'
 gem 'devise-i18n-views'
+gem 'active_hash'
+gem 'rails-i18n'
 
 
 group :production do
