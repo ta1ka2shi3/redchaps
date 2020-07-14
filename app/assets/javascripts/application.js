@@ -23,7 +23,8 @@
 //*/
 
 
-$(document).ready(function(){
-  $('#calendar').fullCalendar({
-  });
-});
+$(() => {
+  $(document).on('turbolinks:load', () => {
+    $('#calendar').fullCalendar({})
+  })
+})
