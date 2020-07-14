@@ -1,7 +1,7 @@
 .gameNew
   .gameNew__top
   .gameNew__form 
-    = form_for @game, url: games_path do |f|
+    = form_for(@game, :builder => FormHelper::FormWithErrorMessageBuilder, url: games_path) do |f|
       .field__content 
         申込フォーム
         .field
@@ -13,7 +13,7 @@
           = f.label :試合日時
           %span 必須
           %br/
-          = f.datetime_field :gamestart_datetime, autofocus: true, :placeholder => "例)桑原", :size => "10"
+          = f.datetime_field :gamestart_datetime
         .field_lastname
           = f.label :試合球
           %span

@@ -1,5 +1,5 @@
 %h2 新規チーム登録
-= form_for(@user, as: resource_name, url: user_registration_path) do |f|
+= form_for(@user, :builder => FormHelper::FormWithErrorMessageBuilder, url: user_registration_path) do |f|
   = render "devise/shared/error_messages", resource: resource
   .field__content
     .field
