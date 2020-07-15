@@ -57,7 +57,7 @@ ActiveRecord::Schema.define(version: 2020_07_12_041155) do
     t.string "first_name_kana", null: false
     t.string "phone_number", null: false
     t.date "birthday", null: false
-    t.string "email", default: "", null: false
+    t.string "email", limit: 191, default: "", null: false
     t.string "encrypted_password", default: "", null: false
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
