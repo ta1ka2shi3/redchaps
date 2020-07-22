@@ -10194,3 +10194,34 @@ Processing by Devise::RegistrationsController#new as HTML
 Completed 200 OK in 318ms (Views: 316.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-07-20 23:17:27 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (13.4ms)
+  Rendered games/_footer.html.haml (8.7ms)
+  Rendered games/index.html.haml within layouts/application (43.4ms)
+Completed 200 OK in 2005ms (Views: 1985.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-20 23:17:36 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (6.5ms)
+  Rendered games/_footer.html.haml (4.2ms)
+  Rendered games/index.html.haml within layouts/application (21.0ms)
+Completed 200 OK in 151ms (Views: 144.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-20 23:17:46 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (5.1ms)
+  Rendered games/_footer.html.haml (4.5ms)
+  Rendered games/index.html.haml within layouts/application (19.6ms)
+Completed 200 OK in 117ms (Views: 112.9ms | ActiveRecord: 0.0ms)
+
+
