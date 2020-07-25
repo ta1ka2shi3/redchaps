@@ -10,10 +10,15 @@
           %br/
           = f.text_field :game_name, :placeholder => "例)練習試合", :maxlength => 50
         .field_datatime
-          = f.label :試合日時
+          = f.label :試合開始日時
           %span 必須
           %br/
           = f.datetime_field :gamestart_datetime
+        .field_datatime
+          = f.label :試合終了日時
+          %span 必須
+          %br/
+          = f.datetime_field :gameend_datetime, autofocus: true
         .field_lastname
           = f.label :試合球
           %span

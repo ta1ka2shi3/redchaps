@@ -38,6 +38,7 @@ ActiveRecord::Schema.define(version: 2020_07_12_041155) do
     t.bigint "user_id", null: false
     t.string "game_name", null: false
     t.datetime "gamestart_datetime", null: false
+    t.datetime "gameend_datetime", null: false
     t.integer "gameball", null: false
     t.integer "cost", null: false
     t.string "referee"

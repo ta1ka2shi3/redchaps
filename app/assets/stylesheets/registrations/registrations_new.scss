@@ -8,6 +8,7 @@ html, body{
   height: 100%; 
 }
 
+
 .single {
   background-color: white;
   min-height: 100%;
@@ -44,12 +45,33 @@ html, body{
     .single__main--center {
       padding: 30px 40px 64px;
       height: 100%;
+      width: 100%;
       background-color: #fff;
+      a {
+        display: block;
+        height: 100%;
+        width: 100px;
+        margin: 10px auto;
+      }
       .field__contents {
         margin: 0 140px;
-        .field, .fieldpost_params, .field_number, .field_firstname,  .field_lastname {
+        .field, .fieldpost_params, .field_number, .field_firstname,  .field_lastname, .field_mail, .field_birthday, .field_passwword {
           height: 100%;
           margin-top: 20px;
+          input#user_last_name, input#user_first_name, input#user_last_name_kana, input#user_first_name_kana {
+            width: 166px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            padding: 10px 16px 8px;
+            margin-top: 8px;
+           }
+           input#user_team_name, input#user_email, input#user_phone_number, input#user_password, input#user_password_confirmation {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            padding: 10px 16px 8px;
+            margin-top: 8px;
+           }
         }
         .year, .month, .day {
           width: 80px;
@@ -64,12 +86,17 @@ html, body{
           width: 90px;
           margin: 0;
           padding-left: 7px;
-          height: 28px;
+          height: 44px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          font-size: 15px;
         }
         #user_birthday_2i, #user_birthday_3i{
           margin: 0;
           padding-left: 7px;
-          height: 28px;
+          height: 44px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
         }
         .actions {
           margin-top: 50px;
