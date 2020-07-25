@@ -1,49 +1,56 @@
-%h2 新規チーム登録
-= form_for(@user, :builder => FormHelper::FormWithErrorMessageBuilder, url: user_registration_path) do |f|
-  = render "devise/shared/error_messages", resource: resource
-  .field__content
-    .field
-      = f.label :チーム名
-      %span 必須 
-      %br/
-      = f.text_field :team_name, :placeholder => "例)Avengers"
-    .field_firstname
-      = f.label :代表者名
-      %span 必須
-      %br/
-      = f.text_field :last_name, autofocus: true, :placeholder => "例)桑原", :size => "10"
-      = f.text_field :first_name, autofocus: true, :placeholder => "例)耕平", :size => "10" 
-    .field_lastname
-      = f.label :代表者名カナ
-      %span
-      %br/
-      = f.text_field :last_name_kana, autofocus: true, :placeholder => "例)シロイシ", :size => "10"
-      = f.text_field :first_name_kana, autofocus: true, :placeholder => "例)トシナリ", :size => "10"
-    .field_mail
-      = f.label :email
-      %span 必須
-      %br/
-      = f.email_field :email, autofocus: true, autocomplete: "email"
-    .field_number
-      = f.label :代表者電話番号
-      %span 必須
-      %br/
-      = f.telephone_field :phone_number, autofocus: true, :placeholder => "-は入れないで下さい"
-    .field_birthday
-      = f.label :チーム創設年
-      %br/
-      = f.date_select :birthday, use_month_numbers: true,start_year: 1930, end_year: (Time.now.year - 10), default: Date.new(1989, 1, 1)
-    .field_passwword
-      = f.label :password
-      - if @minimum_password_length
-        %em
-          (#{@minimum_password_length}文字)
-      %br/
-      = f.password_field :password, autocomplete: "new-password"
-    .field_passwword
-      = f.label :password_confirmation
-      %br/
-      = f.password_field :password_confirmation, autocomplete: "new-password"
-    .actions
-      = f.submit "登録する"
-= render "devise/shared/links"
+.single
+  .single__header
+    = image_tag 'logo.jpg', height:'180px',width:'180px', class: 'logo'
+  .single__main--form
+    %h2 新規登録
+    .single__main--center
+      = form_for(@user, :builder => FormHelper::FormWithErrorMessageBuilder, url: user_registration_path) do |f|
+        = render "devise/shared/error_messages", resource: resource
+        .field__contents
+          .field
+            = f.label :チーム名
+            %span 必須 
+            %br/
+            = f.text_field :team_name, :placeholder => "例)Avengers"
+          .field_firstname
+            = f.label :代表者名
+            %span 必須
+            %br/
+            = f.text_field :last_name, autofocus: true, :placeholder => "例)桑原", :size => "10"
+            = f.text_field :first_name, autofocus: true, :placeholder => "例)耕平", :size => "10" 
+          .field_lastname
+            = f.label :代表者名カナ
+            %span 必須
+            %br/
+            = f.text_field :last_name_kana, autofocus: true, :placeholder => "例)シロイシ", :size => "10"
+            = f.text_field :first_name_kana, autofocus: true, :placeholder => "例)トシナリ", :size => "10"
+          .field_mail
+            = f.label :email
+            %span 必須
+            %br/
+            = f.email_field :email, autofocus: true, autocomplete: "email"
+          .field_number
+            = f.label :代表者電話番号
+            %span 必須
+            %br/
+            = f.telephone_field :phone_number, autofocus: true, :placeholder => "-は入れないで下さい"
+          .field_birthday
+            = f.label :チーム創設年
+            %br/
+            = f.date_select :birthday, use_month_numbers: true,start_year: 1930, end_year: (Time.now.year - 10), default: Date.new(1989, 1, 1)
+          .field_passwword
+            = f.label :password
+            %span 必須
+            - if @minimum_password_length
+              %em
+                (#{@minimum_password_length}文字)
+            %br/
+            = f.password_field :password, autocomplete: "new-password"
+          .field_passwword
+            = f.label :password_confirmation
+            %span 必須
+            %br/
+            = f.password_field :password_confirmation, autocomplete: "new-password"
+          .actions
+            = f.submit "登録する"
+      = render "devise/shared/links"
