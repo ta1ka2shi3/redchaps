@@ -10225,3 +10225,489 @@ Processing by GamesController#index as HTML
 Completed 200 OK in 117ms (Views: 112.9ms | ActiveRecord: 0.0ms)
 
 
+  [1m[35m (0.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (72.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS `redchaps_development`[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (1.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS `redchaps_test`[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE DATABASE `redchaps_development` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE DATABASE `redchaps_test` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (13.0ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (18.7ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('1472229209274435780', 0)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateGames (20200622130604)
+  [1m[35m (13.6ms)[0m  [1m[35mCREATE TABLE `games` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `user_id` bigint NOT NULL, `game_name` varchar(255) NOT NULL, `gamestart_datetime` datetime NOT NULL, `gameend_datetime` datetime NOT NULL, `gameball` int NOT NULL, `cost` int NOT NULL, `referee` varchar(255), `important_point` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_games_on_user_id`  (`user_id`))[0m
+  ↳ db/migrate/20200622130604_create_games.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20200622130604')[0m
+  ↳ bin/rails:9
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to DeviseCreateUsers (20200622131539)
+  [1m[35m (16.2ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `team_name` varchar(255) NOT NULL, `last_name` varchar(255) NOT NULL, `first_name` varchar(255) NOT NULL, `last_name_kana` varchar(255) NOT NULL, `first_name_kana` varchar(255) NOT NULL, `phone_number` varchar(255) NOT NULL, `birthday` date NOT NULL, `email` varchar(191) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ db/migrate/20200622131539_devise_create_users.rb:5
+  [1m[35m (9.5ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) [0m
+  ↳ db/migrate/20200622131539_devise_create_users.rb:45
+  [1m[35m (9.7ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_reset_password_token`  ON `users` (`reset_password_token`) [0m
+  ↳ db/migrate/20200622131539_devise_create_users.rb:46
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::SchemaMigration Create (1.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20200622131539')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to CreateComments (20200622133106)
+  [1m[35m (12.9ms)[0m  [1m[35mCREATE TABLE `comments` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `user_id` bigint NOT NULL, `game_id` bigint NOT NULL, `game_comment` text NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_comments_on_user_id`  (`user_id`),  INDEX `index_comments_on_game_id`  (`game_id`))[0m
+  ↳ db/migrate/20200622133106_create_comments.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20200622133106')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to CreateAddresses (20200622135358)
+  [1m[35m (14.0ms)[0m  [1m[35mCREATE TABLE `addresses` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `game_id` bigint, `baseball_park` varchar(255) NOT NULL, `prefectures` varchar(255) NOT NULL, `municipality` varchar(255) NOT NULL, `building` varchar(255) NOT NULL, `house_number` varchar(255) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_addresses_on_game_id`  (`game_id`), CONSTRAINT `fk_rails_0ade40dd02`
+FOREIGN KEY (`game_id`)
+  REFERENCES `games` (`id`)
+)[0m
+  ↳ db/migrate/20200622135358_create_addresses.rb:3
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20200622135358')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to AddUserRefToGames (20200712041155)
+  [1m[35m (33.0ms)[0m  [1m[35mALTER TABLE `games` ADD `address_id` bigint[0m
+  ↳ db/migrate/20200712041155_add_user_ref_to_games.rb:3
+  [1m[35m (11.0ms)[0m  [1m[35mCREATE  INDEX `index_games_on_address_id`  ON `games` (`address_id`) [0m
+  ↳ db/migrate/20200712041155_add_user_ref_to_games.rb:3
+  [1m[35m (39.9ms)[0m  [1m[35mALTER TABLE `games` ADD CONSTRAINT `fk_rails_6f34c611ec`
+FOREIGN KEY (`address_id`)
+  REFERENCES `addresses` (`id`)
+[0m
+  ↳ db/migrate/20200712041155_add_user_ref_to_games.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20200712041155')[0m
+  ↳ bin/rails:9
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2020-07-25 04:27:21', '2020-07-25 04:27:21')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('1472229209274435780')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for ::1 at 2020-07-25 13:27:35 +0900
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (8.9ms)
+  Rendered games/_footer.html.haml (4.7ms)
+  Rendered games/index.html.haml within layouts/application (33.7ms)
+Completed 200 OK in 3695ms (Views: 3668.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-07-25 13:27:41 +0900
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_error_messages.html.haml (3.5ms)
+  Rendered devise/shared/_links.html.haml (6.8ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (510.6ms)
+Completed 200 OK in 658ms (Views: 626.2ms | ActiveRecord: 6.0ms)
+
+
+Started POST "/users" for ::1 at 2020-07-25 13:28:02 +0900
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GR3SCN6p/uisGmSKWDWji9GkspGloOBHiL8Q3YIU9pTgzlWYfAqrWcDM7Cn7Y1k4cVnsX4ZYZB9WE5ZJqgzGaA==", "user"=>{"team_name"=>"アベンジャーズ", "last_name"=>"小", "first_name"=>"菅", "last_name_kana"=>"コスゲ", "first_name_kana"=>"タカシ", "email"=>"kosugetakashi@icloud.com", "phone_number"=>"09049591450", "birthday(1i)"=>"1995", "birthday(2i)"=>"1", "birthday(3i)"=>"1", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録する"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (1.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'kosugetakashi@icloud.com' LIMIT 1[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'kosugetakashi@icloud.com' LIMIT 1[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`phone_number` = BINARY '09049591450' LIMIT 1[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Create (2.6ms)[0m  [1m[32mINSERT INTO `users` (`team_name`, `last_name`, `first_name`, `last_name_kana`, `first_name_kana`, `phone_number`, `birthday`, `email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('アベンジャーズ', '小', '菅', 'コスゲ', 'タカシ', '09049591450', '1995-01-01', 'kosugetakashi@icloud.com', '$2a$11$CznYiP3YNWcMN33hLL8XJu7Yz8cWZbu0m8UKSI.kiEn.lZWMJ1g8C', '2020-07-25 04:28:02', '2020-07-25 04:28:02')[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 303ms (ActiveRecord: 5.3ms)
+
+
+Started GET "/" for ::1 at 2020-07-25 13:28:02 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (3.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (16.4ms)
+  Rendered games/_footer.html.haml (5.6ms)
+  Rendered games/index.html.haml within layouts/application (31.9ms)
+Completed 200 OK in 153ms (Views: 145.6ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/games/new" for ::1 at 2020-07-25 13:28:28 +0900
+Processing by GamesController#new as HTML
+  Rendering games/new.html.haml within layouts/application
+  Rendered games/new.html.haml within layouts/application (23.0ms)
+Completed 200 OK in 233ms (Views: 163.0ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/games/new" for ::1 at 2020-07-25 13:32:29 +0900
+Processing by GamesController#new as HTML
+  Rendering games/new.html.haml within layouts/application
+  Rendered games/new.html.haml within layouts/application (863.9ms)
+Completed 500 Internal Server Error in 922ms (ActiveRecord: 0.0ms)
+
+
+
+ActionView::Template::Error - undefined local variable or method `resource' for #<#<Class:0x00007ff0c4384ea8>:0x00007ff0c163d008>:
+  app/views/games/new.html.haml:8:in `view template'
+
+Started POST "/__better_errors/0364cfb189e09cde/variables" for ::1 at 2020-07-25 13:32:30 +0900
+Started GET "/games/new" for ::1 at 2020-07-25 13:32:44 +0900
+Processing by GamesController#new as HTML
+  Rendering games/new.html.haml within layouts/application
+  Rendered games/new.html.haml within layouts/application (20.0ms)
+Completed 200 OK in 2028ms (Views: 2020.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games/new" for ::1 at 2020-07-25 13:34:43 +0900
+Processing by GamesController#new as HTML
+  Rendering games/new.html.haml within layouts/application
+  Rendered games/new.html.haml within layouts/application (54.2ms)
+Completed 500 Internal Server Error in 2440ms (ActiveRecord: 0.0ms)
+
+
+
+ActionView::Template::Error - Invalid CSS after "  }": expected "}", was "":
+  app/views/layouts/application.html.haml:9:in `view template'
+
+Started POST "/__better_errors/48a84eae11e19fc8/variables" for ::1 at 2020-07-25 13:34:46 +0900
+Started GET "/games/new" for ::1 at 2020-07-25 13:35:05 +0900
+Processing by GamesController#new as HTML
+  Rendering games/new.html.haml within layouts/application
+  Rendered games/new.html.haml within layouts/application (31.8ms)
+Completed 200 OK in 2439ms (Views: 2431.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games/new" for ::1 at 2020-07-25 13:38:16 +0900
+Processing by GamesController#new as HTML
+  Rendering games/new.html.haml within layouts/application
+  Rendered games/new.html.haml within layouts/application (58.0ms)
+Completed 200 OK in 2862ms (Views: 2840.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games/new" for ::1 at 2020-07-25 13:40:00 +0900
+Processing by GamesController#new as HTML
+  Rendering games/new.html.haml within layouts/application
+  Rendered games/new.html.haml within layouts/application (30.4ms)
+Completed 200 OK in 2678ms (Views: 2671.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games/new" for ::1 at 2020-07-25 13:40:41 +0900
+Processing by GamesController#new as HTML
+  Rendering games/new.html.haml within layouts/application
+  Rendered games/new.html.haml within layouts/application (36.2ms)
+Completed 200 OK in 238ms (Views: 224.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games/new" for ::1 at 2020-07-25 13:41:35 +0900
+Processing by GamesController#new as HTML
+  Rendering games/new.html.haml within layouts/application
+  Rendered games/new.html.haml within layouts/application (29.1ms)
+Completed 200 OK in 2316ms (Views: 2310.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games/new" for ::1 at 2020-07-25 13:47:34 +0900
+  [1m[35m (1.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#new as HTML
+  Rendering games/new.html.haml within layouts/application
+  Rendered games/new.html.haml within layouts/application (33.0ms)
+Completed 200 OK in 238ms (Views: 230.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-26 18:55:14 +0900
+  [1m[35m (13.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (13.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (222.0ms)
+  Rendered games/_footer.html.haml (73.8ms)
+  Rendered games/index.html.haml within layouts/application (462.2ms)
+Completed 200 OK in 1132ms (Views: 1039.2ms | ActiveRecord: 13.9ms)
+
+
+Started GET "/" for ::1 at 2020-07-27 23:49:24 +0900
+  [1m[35m (1.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (8.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (61.6ms)
+  [1m[36mGame Load (7.1ms)[0m  [1m[34mSELECT  `games`.* FROM `games` LIMIT 11[0m
+  ↳ app/views/games/index.html.haml:4
+  [1m[36mCACHE Game Load (0.0ms)[0m  [1m[34mSELECT  `games`.* FROM `games` LIMIT 11[0m
+  ↳ app/views/games/index.html.haml:4
+  [1m[36mCACHE Game Load (0.0ms)[0m  [1m[34mSELECT  `games`.* FROM `games` LIMIT 11[0m
+  ↳ app/views/games/index.html.haml:4
+  [1m[36mCACHE Game Load (0.0ms)[0m  [1m[34mSELECT  `games`.* FROM `games` LIMIT 11[0m
+  ↳ app/views/games/index.html.haml:4
+  [1m[36mCACHE Game Load (0.0ms)[0m  [1m[34mSELECT  `games`.* FROM `games` LIMIT 11[0m
+  ↳ app/views/games/index.html.haml:4
+  [1m[36mCACHE Game Load (0.0ms)[0m  [1m[34mSELECT  `games`.* FROM `games` LIMIT 11[0m
+  ↳ app/views/games/index.html.haml:4
+  [1m[36mCACHE Game Load (0.0ms)[0m  [1m[34mSELECT  `games`.* FROM `games` LIMIT 11[0m
+  ↳ app/views/games/index.html.haml:4
+  [1m[36mCACHE Game Load (0.0ms)[0m  [1m[34mSELECT  `games`.* FROM `games` LIMIT 11[0m
+  ↳ app/views/games/index.html.haml:4
+  Rendered games/_footer.html.haml (707.7ms)
+  Rendered games/index.html.haml within layouts/application (789.5ms)
+Completed 500 Internal Server Error in 856ms (ActiveRecord: 34.5ms)
+
+
+
+ActionView::Template::Error - undefined local variable or method `new_games_path' for #<#<Class:0x00007fe6352b21e0>:0x00007fe6352a33c0>
+Did you mean?  new_game_path:
+  app/views/games/_footer.html.haml:4:in `view template'
+  app/views/games/index.html.haml:4:in `_app_views_games_index_html_haml___2049999729090457146_70313355614400'
+
+Started POST "/__better_errors/4493bb527deed35f/variables" for ::1 at 2020-07-27 23:49:25 +0900
+  [1m[36mGame Load (0.4ms)[0m  [1m[34mSELECT  `games`.* FROM `games` LIMIT 11[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Started GET "/" for ::1 at 2020-07-27 23:50:11 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (9.4ms)
+  Rendered games/_footer.html.haml (5.2ms)
+  Rendered games/index.html.haml within layouts/application (26.3ms)
+Completed 200 OK in 2662ms (Views: 2655.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/games/new" for ::1 at 2020-07-27 23:51:14 +0900
+Processing by GamesController#new as HTML
+  Rendering games/new.html.haml within layouts/application
+  Rendered games/new.html.haml within layouts/application (533.5ms)
+Completed 200 OK in 863ms (Views: 749.3ms | ActiveRecord: 9.3ms)
+
+
+Started POST "/games" for ::1 at 2020-07-27 23:52:12 +0900
+Processing by GamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPbe0sb1kap9GO9mD/Fl9Hyz/5hmo0bdUC655kypKsncDzji/eKFyMbL2vnSZjgVBbnIpcJ++ySitsAqmGXK5A==", "game"=>{"game_name"=>"アンダーワールド大戦", "gamestart_datetime"=>"2020-07-27T09:00", "gameend_datetime"=>"2020-07-27T12:00", "gameball"=>"4", "cost"=>"4000", "referee"=>"3", "important_point"=>"特になし", "address_attributes"=>{"baseball_park"=>"PayPayドーム", "prefectures"=>"山形県", "municipality"=>"坂東市", "house_number"=>"鵠戸555", "building"=>""}}, "commit"=>"登録する"}
+Unpermitted parameter: :gameend_datetime
+  [1m[36mUser Load (80.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/controllers/games_controller.rb:28
+  [1m[35m (19.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[36mGame Exists (3.8ms)[0m  [1m[34mSELECT  1 AS one FROM `games` WHERE `games`.`gamestart_datetime` = '2020-07-27 09:00:00' LIMIT 1[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[36mGame Create (8.4ms)[0m  [1m[32mINSERT INTO `games` (`user_id`, `game_name`, `gamestart_datetime`, `gameball`, `cost`, `referee`, `important_point`, `created_at`, `updated_at`) VALUES (1, 'アンダーワールド大戦', '2020-07-27 09:00:00', 4, 4000, '3', '特になし', '2020-07-27 14:52:12', '2020-07-27 14:52:12')[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[35m (9.0ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/games_controller.rb:13
+Completed 500 Internal Server Error in 151ms (ActiveRecord: 122.8ms)
+
+
+
+ActiveRecord::NotNullViolation - Mysql2::Error: Field 'gameend_datetime' doesn't have a default value: INSERT INTO `games` (`user_id`, `game_name`, `gamestart_datetime`, `gameball`, `cost`, `referee`, `important_point`, `created_at`, `updated_at`) VALUES (1, 'アンダーワールド大戦', '2020-07-27 09:00:00', 4, 4000, '3', '特になし', '2020-07-27 14:52:12', '2020-07-27 14:52:12'):
+  app/controllers/games_controller.rb:13:in `create'
+
+Started POST "/__better_errors/14efc7cc3110f202/variables" for ::1 at 2020-07-27 23:52:12 +0900
+Started POST "/games" for ::1 at 2020-07-27 23:52:58 +0900
+
+SyntaxError - syntax error, unexpected ',', expecting =>
+...d_datetime,　:gameball, :cost, :referee, :important_point, ...
+...                              ^
+/Users/tonystark/Desktop/redchaps/app/controllers/games_controller.rb:28: syntax error, unexpected ')', expecting keyword_end
+...ity, :building, :house_number]).merge(user_id: current_user....
+...                              ^:
+  app/controllers/games_controller.rb:28:in `'
+
+Started POST "/__better_errors/3584d6973da81ca3/variables" for ::1 at 2020-07-27 23:52:58 +0900
+Started POST "/games" for ::1 at 2020-07-27 23:54:48 +0900
+Processing by GamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPbe0sb1kap9GO9mD/Fl9Hyz/5hmo0bdUC655kypKsncDzji/eKFyMbL2vnSZjgVBbnIpcJ++ySitsAqmGXK5A==", "game"=>{"game_name"=>"アンダーワールド大戦", "gamestart_datetime"=>"2020-07-27T09:00", "gameend_datetime"=>"2020-07-27T12:00", "gameball"=>"4", "cost"=>"4000", "referee"=>"3", "important_point"=>"特になし", "address_attributes"=>{"baseball_park"=>"PayPayドーム", "prefectures"=>"山形県", "municipality"=>"坂東市", "house_number"=>"鵠戸555", "building"=>""}}, "commit"=>"登録する"}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/controllers/games_controller.rb:28
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[36mGame Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM `games` WHERE `games`.`gamestart_datetime` = '2020-07-27 09:00:00' LIMIT 1[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[36mGame Create (24.3ms)[0m  [1m[32mINSERT INTO `games` (`user_id`, `game_name`, `gamestart_datetime`, `gameend_datetime`, `gameball`, `cost`, `referee`, `important_point`, `created_at`, `updated_at`) VALUES (1, 'アンダーワールド大戦', '2020-07-27 09:00:00', '2020-07-27 12:00:00', 4, 4000, '3', '特になし', '2020-07-27 14:54:49', '2020-07-27 14:54:49')[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[36mAddress Create (16.6ms)[0m  [1m[32mINSERT INTO `addresses` (`game_id`, `baseball_park`, `prefectures`, `municipality`, `building`, `house_number`, `created_at`, `updated_at`) VALUES (1, 'PayPayドーム', '山形県', '坂東市', '', '鵠戸555', '2020-07-27 14:54:49', '2020-07-27 14:54:49')[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/games_controller.rb:13
+Redirected to http://localhost:3000/
+Completed 302 Found in 364ms (ActiveRecord: 99.9ms)
+
+
+Started GET "/" for ::1 at 2020-07-27 23:54:49 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (11.0ms)
+  Rendered games/_footer.html.haml (10.0ms)
+  Rendered games/index.html.haml within layouts/application (42.8ms)
+Completed 200 OK in 347ms (Views: 339.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-27 23:55:53 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (8.7ms)
+  Rendered games/_footer.html.haml (5.0ms)
+  Rendered games/index.html.haml within layouts/application (25.3ms)
+Completed 200 OK in 680ms (Views: 675.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/games.json?start=2020-06-28&end=2020-08-09&_=1595861754471" for ::1 at 2020-07-27 23:55:54 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-06-28", "end"=>"2020-08-09", "_"=>"1595861754471"}
+  Rendering games/index.json.jbuilder
+  Rendered games/index.json.jbuilder (2.3ms)
+Completed 200 OK in 73ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-27 23:56:30 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (10.3ms)
+  Rendered games/_footer.html.haml (4.6ms)
+  Rendered games/index.html.haml within layouts/application (23.9ms)
+Completed 200 OK in 624ms (Views: 618.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/games.json?start=2020-06-28&end=2020-08-09&_=1595861790919" for ::1 at 2020-07-27 23:56:31 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-06-28", "end"=>"2020-08-09", "_"=>"1595861790919"}
+  Rendering games/index.json.jbuilder
+  Rendered games/index.json.jbuilder (0.5ms)
+Completed 200 OK in 105ms (Views: 100.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-27 23:57:57 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (52.3ms)
+  Rendered games/_footer.html.haml (8.0ms)
+  Rendered games/index.html.haml within layouts/application (74.7ms)
+Completed 200 OK in 273ms (Views: 235.6ms | ActiveRecord: 19.0ms)
+
+
+Started GET "/games.json?start=2020-06-28&end=2020-08-09&_=1595861877596" for ::1 at 2020-07-27 23:57:57 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-06-28", "end"=>"2020-08-09", "_"=>"1595861877596"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (2.3ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (40.0ms)
+Completed 200 OK in 108ms (Views: 93.3ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/games.1" for ::1 at 2020-07-27 23:58:01 +0900
+Processing by GamesController#index as 
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (6.4ms)
+  Rendered games/_footer.html.haml (4.0ms)
+  Rendered games/index.html.haml within layouts/application (76.8ms)
+Completed 200 OK in 253ms (Views: 207.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/games.json?start=2020-06-28&end=2020-08-09&_=1595861881798" for ::1 at 2020-07-27 23:58:01 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-06-28", "end"=>"2020-08-09", "_"=>"1595861881798"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (3.0ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (5.3ms)
+Completed 200 OK in 59ms (Views: 51.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/games.1" for ::1 at 2020-07-28 20:44:30 +0900
+  [1m[35m (24.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as 
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (20.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (59.8ms)
+  Rendered games/_footer.html.haml (9.3ms)
+  Rendered games/index.html.haml within layouts/application (193.2ms)
+Completed 200 OK in 632ms (Views: 524.2ms | ActiveRecord: 20.4ms)
+
+
+Started GET "/games.json?start=2020-06-28&end=2020-08-09&_=1595936671199" for ::1 at 2020-07-28 20:44:31 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-06-28", "end"=>"2020-08-09", "_"=>"1595936671199"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (19.3ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (29.4ms)
+Completed 200 OK in 97ms (Views: 65.3ms | ActiveRecord: 19.3ms)
+
+

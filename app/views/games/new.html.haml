@@ -1,68 +1,69 @@
 .gameNew
   .gameNew__top
-  .gameNew__form 
-    = form_for(@game, :builder => FormHelper::FormWithErrorMessageBuilder, url: games_path) do |f|
-      .field__content 
-        申込フォーム
-        .field
-          = f.label :試合名
-          %span 必須 
-          %br/
-          = f.text_field :game_name, :placeholder => "例)練習試合", :maxlength => 50
-        .field_datatime
-          = f.label :試合開始日時
-          %span 必須
-          %br/
-          = f.datetime_field :gamestart_datetime
-        .field_datatime
-          = f.label :試合終了日時
-          %span 必須
-          %br/
-          = f.datetime_field :gameend_datetime, autofocus: true
-        .field_lastname
-          = f.label :試合球
-          %span
-          %br/
-          = f.number_field :gameball, min: 0, max: 5
-        .field_address
-          = f.label :費用について
-          %span 必須
-          %br/
-          = f.number_field :cost, min: 0, max: 100000
-        .field_referee
-          = f.label :審判
-          %span 必須
-          %br/
-          = f.select(:referee, [["あり",1],["なし",2],["攻撃チームで",3]])
-        .field_important
-          = f.label :その他注意点
-          %span 必須
-          %br/
-          = f.text_area :important_point, autofocus: true
-        = f.fields_for :address do |fin|
+    = image_tag 'logo.jpg', height:'180px',width:'180px', class: 'logo'
+  .field__content 
+    %h2 試合申込フォーム
+    .gameNew__form 
+      = form_for(@game, :builder => FormHelper::FormWithErrorMessageBuilder, url: games_path) do |f|
+        .field__contents 
           .field
-            = fin.label :baseball_park, "球場名"
+            = f.label :試合名
+            %span 必須 
+            %br/
+            = f.text_field :game_name, :placeholder => "例)練習試合", :maxlength => 50
+          .field_datatime
+            = f.label :試合開始日時
             %span 必須
-            %br
-            = fin.text_field :baseball_park, :placeholder => "神宮球場"
-            %br
-            = fin.label :prefecture_id, "都道府県"
+            %br/
+            = f.datetime_field :gamestart_datetime
+          .field_datatime
+            = f.label :試合終了日時
             %span 必須
-            %br
-            = fin.select :prefectures, Game.prefectures.keys, {prompt: '選択してください'}, class: 'prefecture'
-            %br
-            = fin.label :municipality, "市区町村"
+            %br/
+            = f.datetime_field :gameend_datetime, autofocus: true
+          .field_lastname
+            = f.label :試合球
+            %br/
+            = f.number_field :gameball, min: 0, max: 5
+          .field_address
+            = f.label :費用について
             %span 必須
-            %br
-            = fin.text_field :municipality, :placeholder => "例南アルプス市天然水"
-            %br
-            = fin.label :house_number, "番地"
+            %br/
+            = f.number_field :cost, min: 0, max: 100000
+          .field_referee
+            = f.label :審判
             %span 必須
-            %br
-            = fin.text_field :house_number, :placeholder => "1-2-3"
-            %br
-            = fin.label :building, "建物名"
-            %br
-            = fin.text_field :building, :placeholder => "東京タワー"
-        .actions
-          = f.submit "登録する"
+            %br/
+            = f.select(:referee, [["あり",1],["なし",2],["攻撃チームで",3]])
+          .field_important
+            = f.label :その他注意点
+            %span 必須
+            %br/
+            = f.text_area :important_point, autofocus: true
+          = f.fields_for :address do |fin|
+            .field
+              = fin.label :baseball_park, "球場名"
+              %span 必須
+              %br
+              = fin.text_field :baseball_park, :placeholder => "神宮球場"
+              %br
+              = fin.label :prefecture_id, "都道府県"
+              %span 必須
+              %br
+              = fin.select :prefectures, Game.prefectures.keys, {prompt: '選択してください'}, class: 'prefecture'
+              %br
+              = fin.label :municipality, "市区町村"
+              %span 必須
+              %br
+              = fin.text_field :municipality, :placeholder => "例南アルプス市天然水"
+              %br
+              = fin.label :house_number, "番地"
+              %span 必須
+              %br
+              = fin.text_field :house_number, :placeholder => "1-2-3"
+              %br
+              = fin.label :building, "建物名"
+              %br
+              = fin.text_field :building, :placeholder => "東京タワー"
+          .actions
+            = f.submit "登録する"
