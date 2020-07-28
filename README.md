@@ -16,8 +16,8 @@
 
 ```
 購入者用  
-メールアドレス: buyer_user5@gmail.com
-パスワード: buyer_user5
+メールアドレス: game@gmail.com
+パスワード: game12
 ```
 
 
@@ -34,9 +34,9 @@
 
 
 ## Future implementation planned
-　①
-　②
-　③
+　①登録した試合の削除
+　②試合の詳細
+　③試合が許可されたら、試合を申し込んだユーザーへメールを送信する。
 
 
 

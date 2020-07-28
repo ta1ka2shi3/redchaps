@@ -8,12 +8,11 @@ html, body{
   height: 100%; 
 }
 
-
-.single {
+.gameNew {
   background-color: white;
   min-height: 100%;
   width: 100%;
-  &__header {
+  &__top {
     max-width: 20%;
     margin: 0 auto;
     img {
@@ -21,7 +20,7 @@ html, body{
       margin: 10px 50px 0px;
     }
   }
-  &__main--form {
+  .field__content {
     width: 700px;
     background-color: #fff;
     margin: 0 auto;
@@ -34,15 +33,15 @@ html, body{
       border-radius: 2px;
     }
     h2 {
-      max-width: 140px;
+      max-width: 180px;
       margin: 0 auto;
-      padding: 10px 15px 0;
+      padding: 10px 5px 0;
       font-size: 20px;
     }
     p {
       margin: 8px 0 0;
     }
-    .single__main--center {
+    .gameNew__form {
       padding: 30px 40px 64px;
       height: 100%;
       width: 100%;

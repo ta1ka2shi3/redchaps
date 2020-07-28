@@ -7,6 +7,7 @@ class User < ApplicationRecord
   has_many :games
   has_many :comments
 
+  validates :team_name, presence: true
   validates :email, uniqueness: true
   # validates :email, :email_format => {:message => '正しいメールアドレスを入力してください'}
   validates :last_name_kana, presence: true, length: { maximum: 35 },format: { with: /\A[\p{katakana}\p{blank}ー－]+\z/, message: 'はカタカナで入力して下さい。'}
