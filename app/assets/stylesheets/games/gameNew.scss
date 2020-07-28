@@ -54,23 +54,20 @@ html, body{
       }
       .field__contents {
         margin: 0 140px;
-        .field, .fieldpost_params, .field_number, .field_firstname,  .field_lastname, .field_mail, .field_birthday, .field_passwword {
+        .field, .field_datatime, .field_address, .field_referee,  .field_lastname, .field_mail, .field_important, .field_passwword {
           height: 100%;
           margin-top: 20px;
-          input#user_last_name, input#user_first_name, input#user_last_name_kana, input#user_first_name_kana {
-            width: 166px;
-            border-radius: 4px;
-            border: 1px solid #ccc;
-            padding: 10px 16px 8px;
-            margin-top: 8px;
-           }
-           input#user_team_name, input#user_email, input#user_phone_number, input#user_password, input#user_password_confirmation {
+           input#game_game_name, input#game_gamestart_datetime, input#game_gameend_datetime, textarea#game_important_point, select#game_referee {
             width: 100%;
             border-radius: 4px;
             border: 1px solid #ccc;
             padding: 10px 16px 8px;
             margin-top: 8px;
            }
+           input#game_gameball, input#game_cost {
+            width: 30%;
+            
+          }
         }
         .year, .month, .day {
           width: 80px;
