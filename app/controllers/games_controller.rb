@@ -1,5 +1,6 @@
 class GamesController < ApplicationController
   def index
+    @games = Game.all
   end
 
   def new
@@ -24,7 +25,7 @@ class GamesController < ApplicationController
 private
 
 def game_params
-  params.require(:game).permit(:game_name, :gamestart_datetime, :gameball, :cost, :referee, :important_point, address_attributes:[:id, :baseball_park, :prefectures, :municipality, :building, :house_number]).merge(user_id: current_user.id)
+  params.require(:game).permit(:game_name, :gamestart_datetime, :gameend_datetime, :gameball, :cost, :referee, :important_point, address_attributes:[:id, :baseball_park, :prefectures, :municipality, :building, :house_number]).merge(user_id: current_user.id)
 end
 
 end
