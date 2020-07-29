@@ -16,7 +16,7 @@ html, body{
     max-width: 20%;
     margin: 0 auto;
     img {
-      width: 140px;
+      width: 180px;
       margin: 10px 50px 0px;
     }
   }
@@ -57,16 +57,20 @@ html, body{
         .field, .field_datatime, .field_address, .field_referee,  .field_lastname, .field_mail, .field_important, .field_passwword {
           height: 100%;
           margin-top: 20px;
-           input#game_game_name, input#game_gamestart_datetime, input#game_gameend_datetime, textarea#game_important_point, select#game_referee {
+           input#game_game_name, input#game_gamestart_datetime, input#game_gameend_datetime, textarea#game_important_point, select#game_referee, input, select {
             width: 100%;
             border-radius: 4px;
             border: 1px solid #ccc;
             padding: 10px 16px 8px;
             margin-top: 8px;
+            height: 45px;
            }
            input#game_gameball, input#game_cost {
-            width: 30%;
-            
+            width: 25%;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            padding: 10px 16px 8px;
+            margin-top: 8px;
           }
         }
         .year, .month, .day {
@@ -104,7 +108,7 @@ html, body{
             display: block;
             width: 100%;
             height: 100%;
-            border-radius: 2px;
+            border-radius: 4px;
           }
         }
       }
