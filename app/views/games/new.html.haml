@@ -1,6 +1,7 @@
 .gameNew
   .gameNew__top
-    = image_tag 'logo.jpg', height:'180px',width:'180px', class: 'logo'
+    = link_to root_path do  
+      = image_tag 'logo.jpg', height:'180px',width:'180px', class: 'logo'
   .field__content 
     %h2 試合申込フォーム
     .gameNew__form 
