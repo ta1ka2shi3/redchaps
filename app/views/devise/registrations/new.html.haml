@@ -1,6 +1,7 @@
 .single
   .single__header
-    = image_tag 'logo.jpg', height:'180px',width:'180px', class: 'logo'
+    = link_to root_path do  
+      = image_tag 'logo.jpg', height:'180px',width:'180px', class: 'logo'
   .single__main--form
     %h2 新規登録
     .single__main--center
