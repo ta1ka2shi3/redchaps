@@ -11,6 +11,8 @@
 
 ## 🌐 App URL
 
+https://redchaps.herokuapp.com/
+
 ## ✔️TestUser
 テスト用アカウント
 
