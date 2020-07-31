@@ -10711,3 +10711,320 @@ Processing by GamesController#index as JSON
 Completed 200 OK in 97ms (Views: 65.3ms | ActiveRecord: 19.3ms)
 
 
+Started GET "/games.1" for ::1 at 2020-07-31 00:16:56 +0900
+  [1m[35m (14.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (6.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as 
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (10.9ms)
+  Rendered games/_footer.html.haml (6.7ms)
+  Rendered games/index.html.haml within layouts/application (126.4ms)
+Completed 200 OK in 2509ms (Views: 2441.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-06-28&end=2020-08-09&_=1596122218996" for ::1 at 2020-07-31 00:16:59 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-06-28", "end"=>"2020-08-09", "_"=>"1596122218996"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (4.2ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (55.1ms)
+Completed 200 OK in 116ms (Views: 78.7ms | ActiveRecord: 31.5ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-07-31 00:16:59 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (4.7ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (434.1ms)
+Completed 200 OK in 798ms (Views: 766.6ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/games.json?start=2020-06-28&end=2020-08-09&_=1596122218997" for ::1 at 2020-07-31 00:17:02 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-06-28", "end"=>"2020-08-09", "_"=>"1596122218997"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (0.7ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (3.7ms)
+Completed 200 OK in 60ms (Views: 54.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/games.1" for ::1 at 2020-07-31 00:17:03 +0900
+Processing by GamesController#index as 
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (10.3ms)
+  Rendered games/_footer.html.haml (12.2ms)
+  Rendered games/index.html.haml within layouts/application (99.2ms)
+Completed 200 OK in 415ms (Views: 369.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-06-28&end=2020-08-09&_=1596122224305" for ::1 at 2020-07-31 00:17:04 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-06-28", "end"=>"2020-08-09", "_"=>"1596122224305"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (2.3ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (6.1ms)
+Completed 200 OK in 76ms (Views: 69.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-07-31 00:17:05 +0900
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_error_messages.html.haml (2.3ms)
+  Rendered devise/shared/_links.html.haml (3.3ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (34.7ms)
+Completed 200 OK in 142ms (Views: 139.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-31 00:17:06 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (5.7ms)
+  Rendered games/_footer.html.haml (5.3ms)
+  Rendered games/index.html.haml within layouts/application (19.8ms)
+Completed 200 OK in 173ms (Views: 166.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-06-28&end=2020-08-09&_=1596122224306" for ::1 at 2020-07-31 00:17:07 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-06-28", "end"=>"2020-08-09", "_"=>"1596122224306"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (0.3ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (2.7ms)
+Completed 200 OK in 58ms (Views: 53.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-07-31 00:22:28 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (3.8ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (16.2ms)
+Completed 200 OK in 168ms (Views: 164.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-06-28&end=2020-08-09&_=1596122224307" for ::1 at 2020-07-31 00:22:32 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-06-28", "end"=>"2020-08-09", "_"=>"1596122224307"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (0.7ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (6.4ms)
+Completed 200 OK in 73ms (Views: 61.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-07-31 00:23:27 +0900
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_error_messages.html.haml (2.6ms)
+  Rendered devise/shared/_links.html.haml (3.5ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (30.9ms)
+Completed 200 OK in 143ms (Views: 141.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2020-07-31 00:24:32 +0900
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"F4+ZabvSwvUz6k7DadVRKlAYpwTYICot7b6ZiTJmIl/LhAl5Hl7ipNJpo2fY4y2ss6hMrJzE6qgVxnMHYYdCRQ==", "user"=>{"team_name"=>"ドラッグストア", "last_name"=>"桑原", "first_name"=>"耕平", "last_name_kana"=>"クワハラ", "first_name_kana"=>"コウヘイ", "email"=>"kosugetakshi@icloud.com", "phone_number"=>"09049591250", "birthday(1i)"=>"1992", "birthday(2i)"=>"9", "birthday(3i)"=>"7", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録する"}
+  [1m[35m (2.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (10.7ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'kosugetakshi@icloud.com' LIMIT 1[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'kosugetakshi@icloud.com' LIMIT 1[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`phone_number` = BINARY '09049591250' LIMIT 1[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Create (20.8ms)[0m  [1m[32mINSERT INTO `users` (`team_name`, `last_name`, `first_name`, `last_name_kana`, `first_name_kana`, `phone_number`, `birthday`, `email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('ドラッグストア', '桑原', '耕平', 'クワハラ', 'コウヘイ', '09049591250', '1992-09-07', 'kosugetakshi@icloud.com', '$2a$11$o6/UxsbCCfjIEu7YJQfQ4uAracUvqNW1rebOTmsZ6olqHfzzQLQYO', '2020-07-30 15:24:32', '2020-07-30 15:24:32')[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (7.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 302ms (ActiveRecord: 41.1ms)
+
+
+Started GET "/" for ::1 at 2020-07-31 00:24:32 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (4.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (16.2ms)
+  Rendered games/_footer.html.haml (29.4ms)
+  Rendered games/index.html.haml within layouts/application (57.8ms)
+Completed 200 OK in 218ms (Views: 209.6ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/games.json?start=2020-06-28&end=2020-08-09&_=1596122673100" for ::1 at 2020-07-31 00:24:33 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-06-28", "end"=>"2020-08-09", "_"=>"1596122673100"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (11.3ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (17.3ms)
+Completed 200 OK in 87ms (Views: 70.6ms | ActiveRecord: 11.3ms)
+
+
+Started GET "/games/new" for ::1 at 2020-07-31 00:24:36 +0900
+Processing by GamesController#new as HTML
+  Rendering games/new.html.haml within layouts/application
+  Rendered games/new.html.haml within layouts/application (24.2ms)
+Completed 200 OK in 185ms (Views: 132.3ms | ActiveRecord: 6.5ms)
+
+
+Started POST "/games" for ::1 at 2020-07-31 00:25:07 +0900
+Processing by GamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+eF4jG2KmjDwNuTFP7D1xXQFKv/u2W6GzVwJMv1e36FyKySEq35inHHGg+Lt/7ex2JOJ7kZQI+LrAGeRamPXuA==", "game"=>{"game_name"=>"関ヶ原の戦い", "gamestart_datetime"=>"2020-07-23T03:24", "gameend_datetime"=>"2020-07-23T06:24", "gameball"=>"3", "cost"=>"4500", "referee"=>"1", "important_point"=>"", "address_attributes"=>{"baseball_park"=>"PayPayドーム", "prefectures"=>"茨城県", "municipality"=>"原宿", "house_number"=>"1223", "building"=>""}}, "commit"=>"登録する"}
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/controllers/games_controller.rb:28
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[36mGame Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM `games` WHERE `games`.`gamestart_datetime` = '2020-07-23 03:24:00' LIMIT 1[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[36mGame Create (2.1ms)[0m  [1m[32mINSERT INTO `games` (`user_id`, `game_name`, `gamestart_datetime`, `gameend_datetime`, `gameball`, `cost`, `referee`, `important_point`, `created_at`, `updated_at`) VALUES (2, '関ヶ原の戦い', '2020-07-23 03:24:00', '2020-07-23 06:24:00', 3, 4500, '1', '', '2020-07-30 15:25:07', '2020-07-30 15:25:07')[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[36mAddress Create (7.0ms)[0m  [1m[32mINSERT INTO `addresses` (`game_id`, `baseball_park`, `prefectures`, `municipality`, `building`, `house_number`, `created_at`, `updated_at`) VALUES (2, 'PayPayドーム', '茨城県', '原宿', '', '1223', '2020-07-30 15:25:07', '2020-07-30 15:25:07')[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/games_controller.rb:13
+Redirected to http://localhost:3000/
+Completed 302 Found in 45ms (ActiveRecord: 13.7ms)
+
+
+Started GET "/" for ::1 at 2020-07-31 00:25:07 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (10.0ms)
+  Rendered games/_footer.html.haml (13.7ms)
+  Rendered games/index.html.haml within layouts/application (32.1ms)
+Completed 200 OK in 193ms (Views: 185.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/games.json?start=2020-06-28&end=2020-08-09&_=1596122707612" for ::1 at 2020-07-31 00:25:07 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-06-28", "end"=>"2020-08-09", "_"=>"1596122707612"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (0.4ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (17.0ms)
+Completed 200 OK in 92ms (Views: 83.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/games.2" for ::1 at 2020-07-31 00:25:10 +0900
+Processing by GamesController#index as 
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (6.6ms)
+  Rendered games/_footer.html.haml (4.0ms)
+  Rendered games/index.html.haml within layouts/application (74.4ms)
+Completed 200 OK in 249ms (Views: 200.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/games.json?start=2020-06-28&end=2020-08-09&_=1596122711123" for ::1 at 2020-07-31 00:25:11 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-06-28", "end"=>"2020-08-09", "_"=>"1596122711123"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (5.6ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (8.2ms)
+Completed 200 OK in 77ms (Views: 67.9ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/games/new" for ::1 at 2020-07-31 00:47:00 +0900
+  [1m[35m (3.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#new as HTML
+  Rendering games/new.html.haml within layouts/application
+  Rendered games/new.html.haml within layouts/application (1143.4ms)
+Completed 200 OK in 1513ms (Views: 1411.1ms | ActiveRecord: 15.1ms)
+
+
+Started POST "/games" for ::1 at 2020-07-31 00:47:38 +0900
+Processing by GamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rYami8tQIbTfTad0LSU7381O3TN4Ypvs3TnMQe4l2KgmTPqDDaTZGF69wFP/anmrYdh+ItDr1oj7ZaLieRjQsQ==", "game"=>{"game_name"=>"", "gamestart_datetime"=>"2020-07-28T03:50", "gameend_datetime"=>"2020-07-28T09:50", "gameball"=>"3", "cost"=>"4300", "referee"=>"1", "important_point"=>"", "address_attributes"=>{"baseball_park"=>"岩井球場", "prefectures"=>"千葉県", "municipality"=>"坂東市", "house_number"=>"1223", "building"=>""}}, "commit"=>"登録する"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/controllers/games_controller.rb:28
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[36mGame Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `games` WHERE `games`.`gamestart_datetime` = '2020-07-28 03:50:00' LIMIT 1[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[35m (2.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/games_controller.rb:13
+  Rendering games/new.html.haml within layouts/application
+  Rendered games/new.html.haml within layouts/application (17.5ms)
+Completed 200 OK in 253ms (Views: 120.5ms | ActiveRecord: 11.1ms)
+
+
+Started POST "/games" for ::1 at 2020-07-31 00:47:50 +0900
+Processing by GamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TsnVPs6Sqc5o5QFKHljy1NoubPVLW6h+7KD1seec85Nhbz7Q2plZ1Ji5Y/P+C+fnl9aA7k2hGr2ogwsomtl+gg==", "game"=>{"game_name"=>"頂上戦争", "gamestart_datetime"=>"2020-07-28T03:50:00", "gameend_datetime"=>"2020-07-28T09:50:00", "gameball"=>"3", "cost"=>"4300", "referee"=>"1", "important_point"=>"", "address_attributes"=>{"baseball_park"=>"岩井球場", "prefectures"=>"千葉県", "municipality"=>"坂東市", "house_number"=>"1223", "building"=>""}}, "commit"=>"登録する"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/controllers/games_controller.rb:28
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[36mGame Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM `games` WHERE `games`.`gamestart_datetime` = '2020-07-28 03:50:00' LIMIT 1[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[36mGame Create (0.6ms)[0m  [1m[32mINSERT INTO `games` (`user_id`, `game_name`, `gamestart_datetime`, `gameend_datetime`, `gameball`, `cost`, `referee`, `important_point`, `created_at`, `updated_at`) VALUES (2, '頂上戦争', '2020-07-28 03:50:00', '2020-07-28 09:50:00', 3, 4300, '1', '', '2020-07-30 15:47:50', '2020-07-30 15:47:50')[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[36mAddress Create (1.5ms)[0m  [1m[32mINSERT INTO `addresses` (`game_id`, `baseball_park`, `prefectures`, `municipality`, `building`, `house_number`, `created_at`, `updated_at`) VALUES (3, '岩井球場', '千葉県', '坂東市', '', '1223', '2020-07-30 15:47:50', '2020-07-30 15:47:50')[0m
+  ↳ app/controllers/games_controller.rb:13
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/games_controller.rb:13
+Redirected to http://localhost:3000/
+Completed 302 Found in 27ms (ActiveRecord: 8.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-31 00:47:50 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (31.6ms)
+  Rendered games/_footer.html.haml (3.7ms)
+  Rendered games/index.html.haml within layouts/application (52.1ms)
+Completed 200 OK in 175ms (Views: 167.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/games.json?start=2020-06-28&end=2020-08-09&_=1596124070512" for ::1 at 2020-07-31 00:47:50 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-06-28", "end"=>"2020-08-09", "_"=>"1596124070512"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (8.8ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (16.4ms)
+Completed 200 OK in 85ms (Views: 66.2ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/games" for ::1 at 2020-07-31 00:47:55 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/games/_header.html.haml:4
+  Rendered games/_header.html.haml (6.5ms)
+  Rendered games/_footer.html.haml (4.2ms)
+  Rendered games/index.html.haml within layouts/application (19.9ms)
+Completed 200 OK in 114ms (Views: 110.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/games.json?start=2020-06-28&end=2020-08-09&_=1596124070513" for ::1 at 2020-07-31 00:47:55 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-06-28", "end"=>"2020-08-09", "_"=>"1596124070513"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (0.4ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (3.1ms)
+Completed 200 OK in 63ms (Views: 59.4ms | ActiveRecord: 0.4ms)
+
+

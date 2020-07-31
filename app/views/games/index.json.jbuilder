@@ -3,5 +3,5 @@ json.array!(@games) do |game|
   json.title game.game_name
   json.start game.gamestart_datetime
   json.end game.gameend_datetime
-  json.url games_url(game)
+  json.url games_url(@game)
 end
