@@ -1,7 +1,7 @@
 # redchaps_試合申込アプリ
   試合申込アプリケーション
   <p align="center">
-  <img src="https://gyazo.com/b1d61ad75555f548883eaa08f5c82f6d" width="80%">
+  <img tag="https://gyazo.com/b1d61ad75555f548883eaa08f5c82f6d" width="80%">
 
 
 ## 概要
