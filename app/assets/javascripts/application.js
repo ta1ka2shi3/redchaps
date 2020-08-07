@@ -12,14 +12,11 @@
 //
 //= require rails-ujs
 //= require activestorage
-//= require turbolinks
 //= require jquery
 //= require moment
 //= require fullcalendar
+//= require turbolinks
 //= require_tree .
-
-//= require_self
-//= require fullcalendar
 //*/
 
 
