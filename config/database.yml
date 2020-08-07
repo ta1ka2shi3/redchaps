@@ -45,7 +45,7 @@ test:
 # You can use this database configuration with:
 #
 #   production:
-#     url: <%= ENV['DATABASE_URL'] %>
+#     
 #
 production:
   <<: *default
@@ -53,5 +53,6 @@ production:
   username: ta1ka2shi3
   password: <%= ENV['REDCHAPS_DATABASE_PASSWORD'] %>
   adapter: postgresql
-  encoding: utf8  
+  encoding: utf8 
+  url: <%= ENV['DB_URL'] %>
   pool: 5
