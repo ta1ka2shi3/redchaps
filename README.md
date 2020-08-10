@@ -2,7 +2,12 @@
   試合申込アプリケーション
   <p align="center">
   <img src="https://i.gyazo.comb1d61ad75555f548883eaa08f5c82f6d.jpg" width="80%">
-
+  申込フォーム
+  <p align="center">
+  <img src="https://i.gyazo.comb1d61ad75555f548883eaa08f5c82f6d.jpg" width="80%">
+  試合詳細ページ
+  <p align="center">
+  <img src="https://i.gyazo.comb1d61ad75555f548883eaa08f5c82f6d.jpg" width="80%">
 
 ## 概要
 このアプリでは、草野球の試合を申し込むことが出来ます。
@@ -17,7 +22,7 @@
 ## 工夫したポイント
 ①DB管理の部分で住所と試合のテーブルを分けることによって、複雑な構造にしないよ工夫した。
 ②問題点である確認ミスなどを防ぐために多くの記入必須フォームを作成した。
-③
+③fullcalenderを使用するためにjbuilder.fileを使用し、非同期で予定を表示した部分
 
 ## 🌐 App URL
 
