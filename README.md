@@ -1,7 +1,8 @@
 # redchaps_試合申込アプリ
   トップページ
   <p align="center">
-  <img src="https://i.gyazo.com/76d0c6209a01b9acb122007037fb6422.gif)](https://gyazo.com/76d0c6209a01b9acb122007037fb6422"></img>
+  <img src="https://i.gyazo.com/76d0c6209a01b9acb122007037fb6422.gif" alt="Image from Gyazo" width="80px/>
+
 ## 概要
 このアプリでは、草野球の試合を申し込むことが出来ます。
 申し込むだけではなく、チームの予定を確認することが出来、相手に調整していただかなくても都合のいい時に申し込むことができます。
