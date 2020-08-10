@@ -4,7 +4,7 @@
   <img src="https://gyazo.com/76d0c6209a01b9acb122007037fb6422" width="80%">
   申込フォーム
   <p align="center">
-  <a href="https://gyazo.com/76d0c6209a01b9acb122007037fb6422"><img src="https://i.gyazo.com/76d0c6209a01b9acb122007037fb6422.gif" alt="Image from Gyazo" width="1000"/></a>
+  <img src="https://i.gyazo.com/76d0c6209a01b9acb122007037fb6422.gif" alt="Image from Gyazo" width="80%"/>
   試合詳細ページ
   <p align="center">
   <img src="https://i.gyazo.comb1d61ad75555f548883eaa08f5c82f6d.jpg" width="80%">
