@@ -2,6 +2,7 @@
   トップページ
   <p align="center">
   <img src="https://i.gyazo.com/3d2501e764557e5ad9022d6093a167a8.jpg"  width="800px"/>
+  2枚目
   <img src="https://i.gyazo.com/e7fe54e7ebbf9649bc039588337034dd.png"  width="800px"/>
 
 
