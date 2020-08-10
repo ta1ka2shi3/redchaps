@@ -1,1 +1,55 @@
-test
+.single
+  .single__main
+    .image
+      = link_to root_path do  
+        = image_tag 'logo.jpg', height:'180px',width:'180px', class: 'logo'
+    .single__title  試合詳細
+    .single__game
+      %table.game__list
+        %tr
+          %th 申込チーム名
+          %td 
+            = @game.user.team_name
+        %tr
+          %th 試合名
+          %td 
+            = @game.game_name
+        %tr
+          %th 試合開始時間
+          %td 
+            = @game.gamestart_datetime.strftime("%Y年%m月%d日 %H時%M分")
+        %tr
+          %th 試合終了時間
+          %td 
+            = @game.gameend_datetime.strftime("%Y年%m月%d日 %H時%M分")
+        %tr
+          %th 試合球について
+          %td 
+            = @game.gameball
+        %tr
+          %th 費用について
+          %td 
+            = @game.cost
+        %tr
+          %th 審判について
+          %td 
+            = @game.referee
+        %tr
+          %th 球場名
+          %td 
+            = @game.address.baseball_park
+        %tr
+          %th 球場住所
+          %td 
+            = (@game.address.prefectures + @game.address.municipality + @game.address.house_number + @game.address.building)
+        %tr
+          %th その他注意点
+          %td 
+            = @game.important_point
+
+- if user_signed_in? && current_user.id == @game.user_id
+  .moreList
+    .moreList__container
+      //= link_to '編集', edit_game_path(@game.id), method: :get, class: "header__right--btn"
+      = link_to '削除', "/game/#{@game.id}", method: :delete, class: "header__right--btn"
+.footer
