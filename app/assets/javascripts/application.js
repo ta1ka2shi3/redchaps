@@ -12,22 +12,15 @@
 //
 //= require rails-ujs
 //= require activestorage
-//= require turbolinks
 //= require jquery
 //= require moment
 //= require fullcalendar
-//= require_tree 
-
-//= require_self
-//= require fullcalendar
+//= require turbolinks
+//= require_tree .
 //*/
 
-
-
-
-
-$(() => {
-  $(document).on('turbolinks:load', () => {
+$(function(){
+  $(document).on('turbolinks:load', function () {
     $('#calendar').fullCalendar({
       monthNames: ['１月', '２月', '３月', '４月', '５月', '６月', '７月', '８月', '９月', '１０月', '１１月', '１２月'],
       monthNamesShort: ['１月', '２月', '３月', '４月', '５月', '６月', '７月', '８月', '９月', '１０月', '１１月', '１２月'],
