@@ -12448,3 +12448,720 @@ Processing by Devise::RegistrationsController#new as HTML
 Completed 200 OK in 1302ms (Views: 1265.5ms | ActiveRecord: 10.9ms)
 
 
+Started GET "/" for ::1 at 2020-08-18 20:50:30 +0900
+  [1m[35m (49.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (11.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (7.4ms)
+  Rendered games/_footer.html.haml (4.0ms)
+  Rendered games/index.html.haml within layouts/application (25.7ms)
+Completed 200 OK in 1631ms (Views: 1595.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597751433221" for ::1 at 2020-08-18 20:50:33 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597751433221"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (4.3ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (70.3ms)
+Completed 200 OK in 114ms (Views: 68.4ms | ActiveRecord: 39.9ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 20:51:07 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (8.0ms)
+  Rendered games/_footer.html.haml (7.0ms)
+  Rendered games/index.html.haml within layouts/application (29.2ms)
+Completed 200 OK in 2648ms (Views: 2642.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597751470071" for ::1 at 2020-08-18 20:51:10 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597751470071"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (1.5ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (4.7ms)
+Completed 200 OK in 67ms (Views: 58.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 20:51:48 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (31.6ms)
+  Rendered games/_footer.html.haml (17.8ms)
+  Rendered games/index.html.haml within layouts/application (78.5ms)
+Completed 200 OK in 2650ms (Views: 2643.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597751511700" for ::1 at 2020-08-18 20:51:51 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597751511700"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (14.7ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (20.7ms)
+Completed 200 OK in 100ms (Views: 80.0ms | ActiveRecord: 14.7ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 20:52:29 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (12.7ms)
+  Rendered games/_footer.html.haml (18.3ms)
+  Rendered games/index.html.haml within layouts/application (48.6ms)
+Completed 200 OK in 4169ms (Views: 4164.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597751554089" for ::1 at 2020-08-18 20:52:34 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597751554089"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (76.2ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (88.0ms)
+Completed 200 OK in 178ms (Views: 83.2ms | ActiveRecord: 76.2ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 20:53:08 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (20.6ms)
+  Rendered games/_footer.html.haml (16.6ms)
+  Rendered games/index.html.haml within layouts/application (56.2ms)
+Completed 200 OK in 2128ms (Views: 2121.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597751590992" for ::1 at 2020-08-18 20:53:11 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597751590992"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (2.2ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (6.8ms)
+Completed 200 OK in 71ms (Views: 63.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 20:53:57 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (5.2ms)
+  Rendered games/_footer.html.haml (4.4ms)
+  Rendered games/index.html.haml within layouts/application (19.4ms)
+Completed 200 OK in 2569ms (Views: 2563.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597751640008" for ::1 at 2020-08-18 20:54:00 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597751640008"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (9.0ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (14.6ms)
+Completed 200 OK in 93ms (Views: 78.4ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 20:56:59 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (10.4ms)
+  Rendered games/_footer.html.haml (7.4ms)
+  Rendered games/index.html.haml within layouts/application (52.2ms)
+Completed 200 OK in 2502ms (Views: 2493.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597751821851" for ::1 at 2020-08-18 20:57:02 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597751821851"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (26.7ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (44.0ms)
+Completed 200 OK in 138ms (Views: 97.4ms | ActiveRecord: 26.7ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 20:57:29 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (5.8ms)
+  Rendered games/_footer.html.haml (4.9ms)
+  Rendered games/index.html.haml within layouts/application (29.6ms)
+Completed 200 OK in 2019ms (Views: 2013.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597751852130" for ::1 at 2020-08-18 20:57:32 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597751852130"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (3.0ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (10.1ms)
+Completed 200 OK in 90ms (Views: 82.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 20:58:10 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (11.9ms)
+  Rendered games/_footer.html.haml (5.9ms)
+  Rendered games/index.html.haml within layouts/application (29.9ms)
+Completed 200 OK in 1965ms (Views: 1958.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597751892608" for ::1 at 2020-08-18 20:58:12 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597751892608"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (9.6ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (15.8ms)
+Completed 200 OK in 73ms (Views: 55.9ms | ActiveRecord: 9.6ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-08-18 20:58:18 +0900
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_error_messages.html.haml (2.6ms)
+  Rendered devise/shared/_links.html.haml (16.9ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (1476.9ms)
+Completed 200 OK in 1662ms (Views: 1618.4ms | ActiveRecord: 17.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597751892609" for ::1 at 2020-08-18 20:58:21 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597751892609"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (0.5ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (4.3ms)
+Completed 200 OK in 53ms (Views: 49.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 20:58:48 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (5.6ms)
+  Rendered games/_footer.html.haml (4.8ms)
+  Rendered games/index.html.haml within layouts/application (22.0ms)
+Completed 200 OK in 2083ms (Views: 2076.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597751930946" for ::1 at 2020-08-18 20:58:51 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597751930946"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (6.9ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (9.8ms)
+Completed 200 OK in 65ms (Views: 54.3ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 20:59:05 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (11.9ms)
+  Rendered games/_footer.html.haml (5.2ms)
+  Rendered games/index.html.haml within layouts/application (31.3ms)
+Completed 200 OK in 1900ms (Views: 1895.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597751947852" for ::1 at 2020-08-18 20:59:08 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597751947852"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (5.4ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (10.3ms)
+Completed 200 OK in 73ms (Views: 61.3ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 20:59:56 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (5.7ms)
+  Rendered games/_footer.html.haml (5.2ms)
+  Rendered games/index.html.haml within layouts/application (21.6ms)
+Completed 200 OK in 187ms (Views: 181.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597751996614" for ::1 at 2020-08-18 20:59:56 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597751996614"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (8.0ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (11.1ms)
+Completed 200 OK in 71ms (Views: 55.3ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:01:09 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (15.8ms)
+  Rendered games/_footer.html.haml (7.8ms)
+  Rendered games/index.html.haml within layouts/application (49.6ms)
+Completed 200 OK in 2960ms (Views: 2943.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597752072894" for ::1 at 2020-08-18 21:01:13 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597752072894"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (111.7ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (124.2ms)
+Completed 200 OK in 206ms (Views: 88.2ms | ActiveRecord: 111.7ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:02:54 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (7.6ms)
+  Rendered games/_footer.html.haml (6.1ms)
+  Rendered games/index.html.haml within layouts/application (25.4ms)
+Completed 500 Internal Server Error in 172ms (ActiveRecord: 0.0ms)
+
+
+
+ActionView::Template::Error - Invalid CSS after "    margin-bottom": expected ";", was ": 8px;":
+  app/views/layouts/application.html.haml:8:in `view template'
+
+Started POST "/__better_errors/0c8dee99fb1f3589/variables" for ::1 at 2020-08-18 21:02:54 +0900
+  [1m[36mGame Load (4.8ms)[0m  [1m[34mSELECT  `games`.* FROM `games` LIMIT 11[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Started GET "/" for ::1 at 2020-08-18 21:03:02 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (5.6ms)
+  Rendered games/_footer.html.haml (4.2ms)
+  Rendered games/index.html.haml within layouts/application (21.5ms)
+Completed 200 OK in 2586ms (Views: 2582.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597752185384" for ::1 at 2020-08-18 21:03:05 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597752185384"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (39.6ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (44.2ms)
+Completed 200 OK in 125ms (Views: 81.1ms | ActiveRecord: 39.6ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:03:41 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (4.8ms)
+  Rendered games/_footer.html.haml (5.1ms)
+  Rendered games/index.html.haml within layouts/application (19.8ms)
+Completed 200 OK in 1843ms (Views: 1837.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597752223088" for ::1 at 2020-08-18 21:03:43 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597752223088"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (0.5ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (4.5ms)
+Completed 200 OK in 68ms (Views: 62.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:04:32 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (8.8ms)
+  Rendered games/_footer.html.haml (8.3ms)
+  Rendered games/index.html.haml within layouts/application (38.1ms)
+Completed 200 OK in 2216ms (Views: 2208.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597752274655" for ::1 at 2020-08-18 21:04:34 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597752274655"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (1.6ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (5.5ms)
+Completed 200 OK in 65ms (Views: 58.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:05:22 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (5.8ms)
+  Rendered games/_footer.html.haml (5.9ms)
+  Rendered games/index.html.haml within layouts/application (23.5ms)
+Completed 200 OK in 2517ms (Views: 2512.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597752324881" for ::1 at 2020-08-18 21:05:25 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597752324881"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (2.4ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (5.2ms)
+Completed 200 OK in 78ms (Views: 71.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:05:49 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (4.9ms)
+  Rendered games/_footer.html.haml (5.3ms)
+  Rendered games/index.html.haml within layouts/application (19.8ms)
+Completed 200 OK in 160ms (Views: 153.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597752350006" for ::1 at 2020-08-18 21:05:50 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597752350006"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (4.6ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (7.9ms)
+Completed 200 OK in 92ms (Views: 79.3ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:09:55 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (16.3ms)
+  Rendered games/_footer.html.haml (10.0ms)
+  Rendered games/index.html.haml within layouts/application (56.5ms)
+Completed 200 OK in 4675ms (Views: 4658.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597752600040" for ::1 at 2020-08-18 21:10:00 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597752600040"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (3.1ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (16.1ms)
+Completed 200 OK in 83ms (Views: 74.0ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:11:26 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (6.1ms)
+  Rendered games/_footer.html.haml (6.6ms)
+  Rendered games/index.html.haml within layouts/application (24.9ms)
+Completed 200 OK in 2125ms (Views: 2119.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597752688989" for ::1 at 2020-08-18 21:11:29 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597752688989"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (2.2ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (6.6ms)
+Completed 200 OK in 65ms (Views: 55.8ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:11:51 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (10.1ms)
+  Rendered games/_footer.html.haml (6.2ms)
+  Rendered games/index.html.haml within layouts/application (31.7ms)
+Completed 200 OK in 1938ms (Views: 1932.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597752713880" for ::1 at 2020-08-18 21:11:53 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597752713880"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (4.3ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (8.2ms)
+Completed 200 OK in 68ms (Views: 60.6ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:12:18 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (5.3ms)
+  Rendered games/_footer.html.haml (4.2ms)
+  Rendered games/index.html.haml within layouts/application (17.8ms)
+Completed 500 Internal Server Error in 130ms (ActiveRecord: 0.0ms)
+
+
+
+ActionView::Template::Error - Invalid CSS after "    padding": expected ";", was ": 2px 5px 2px 2...":
+  app/views/layouts/application.html.haml:8:in `view template'
+
+Started POST "/__better_errors/bbfbe6233f316174/variables" for ::1 at 2020-08-18 21:12:18 +0900
+  [1m[36mGame Load (4.2ms)[0m  [1m[34mSELECT  `games`.* FROM `games` LIMIT 11[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Started GET "/" for ::1 at 2020-08-18 21:12:25 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (7.6ms)
+  Rendered games/_footer.html.haml (9.0ms)
+  Rendered games/index.html.haml within layouts/application (30.0ms)
+Completed 200 OK in 1953ms (Views: 1948.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597752747937" for ::1 at 2020-08-18 21:12:28 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597752747937"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (3.8ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (18.7ms)
+Completed 200 OK in 82ms (Views: 71.8ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:12:48 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (4.8ms)
+  Rendered games/_footer.html.haml (4.9ms)
+  Rendered games/index.html.haml within layouts/application (19.2ms)
+Completed 200 OK in 160ms (Views: 154.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597752768319" for ::1 at 2020-08-18 21:12:48 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597752768319"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (12.0ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (16.6ms)
+Completed 200 OK in 78ms (Views: 61.2ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:14:45 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (11.4ms)
+  Rendered games/_footer.html.haml (10.0ms)
+  Rendered games/index.html.haml within layouts/application (69.3ms)
+Completed 200 OK in 3980ms (Views: 3936.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597752889687" for ::1 at 2020-08-18 21:14:49 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597752889687"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (20.9ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (29.6ms)
+Completed 200 OK in 122ms (Views: 83.3ms | ActiveRecord: 20.9ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:15:27 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (9.7ms)
+  Rendered games/_footer.html.haml (6.6ms)
+  Rendered games/index.html.haml within layouts/application (31.1ms)
+Completed 200 OK in 2749ms (Views: 2742.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597752930810" for ::1 at 2020-08-18 21:15:31 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597752930810"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (0.7ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (4.4ms)
+Completed 200 OK in 67ms (Views: 60.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:15:54 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (7.5ms)
+  Rendered games/_footer.html.haml (6.7ms)
+  Rendered games/index.html.haml within layouts/application (25.8ms)
+Completed 200 OK in 3608ms (Views: 3602.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597752958046" for ::1 at 2020-08-18 21:15:58 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597752958046"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (0.5ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (3.9ms)
+Completed 200 OK in 76ms (Views: 70.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:16:21 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (6.0ms)
+  Rendered games/_footer.html.haml (7.6ms)
+  Rendered games/index.html.haml within layouts/application (26.7ms)
+Completed 200 OK in 3152ms (Views: 3148.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597752984398" for ::1 at 2020-08-18 21:16:24 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597752984398"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (5.8ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (9.2ms)
+Completed 200 OK in 63ms (Views: 52.7ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:18:19 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (17.7ms)
+  Rendered games/_footer.html.haml (37.9ms)
+  Rendered games/index.html.haml within layouts/application (77.7ms)
+Completed 500 Internal Server Error in 297ms (ActiveRecord: 0.0ms)
+
+
+
+ActionView::Template::Error - Invalid CSS after "... 228, 0.1) 6px,": expected ")", was "}":
+  app/views/layouts/application.html.haml:8:in `view template'
+
+Started POST "/__better_errors/a5a60c4e4e3a919f/variables" for ::1 at 2020-08-18 21:18:20 +0900
+  [1m[36mGame Load (1.2ms)[0m  [1m[34mSELECT  `games`.* FROM `games` LIMIT 11[0m
+  ↳ /Users/tonystark/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Started GET "/" for ::1 at 2020-08-18 21:19:10 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (13.0ms)
+  Rendered games/_footer.html.haml (6.3ms)
+  Rendered games/index.html.haml within layouts/application (43.7ms)
+Completed 200 OK in 2570ms (Views: 2557.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597753153675" for ::1 at 2020-08-18 21:19:13 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597753153675"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (0.6ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (5.1ms)
+Completed 200 OK in 68ms (Views: 60.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:19:41 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (8.1ms)
+  Rendered games/_footer.html.haml (7.8ms)
+  Rendered games/index.html.haml within layouts/application (26.0ms)
+Completed 200 OK in 2948ms (Views: 2942.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597753184352" for ::1 at 2020-08-18 21:19:44 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597753184352"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (9.1ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (13.3ms)
+Completed 200 OK in 146ms (Views: 132.5ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:20:04 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (5.4ms)
+  Rendered games/_footer.html.haml (5.3ms)
+  Rendered games/index.html.haml within layouts/application (21.3ms)
+Completed 200 OK in 3272ms (Views: 3267.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597753208439" for ::1 at 2020-08-18 21:20:08 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597753208439"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (37.7ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (50.1ms)
+Completed 200 OK in 145ms (Views: 98.2ms | ActiveRecord: 37.7ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:21:34 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (8.8ms)
+  Rendered games/_footer.html.haml (6.1ms)
+  Rendered games/index.html.haml within layouts/application (29.4ms)
+Completed 200 OK in 3047ms (Views: 3041.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597753297849" for ::1 at 2020-08-18 21:21:38 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597753297849"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (79.5ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (82.3ms)
+Completed 200 OK in 152ms (Views: 67.5ms | ActiveRecord: 79.5ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:22:07 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (6.5ms)
+  Rendered games/_footer.html.haml (7.8ms)
+  Rendered games/index.html.haml within layouts/application (26.3ms)
+Completed 200 OK in 2154ms (Views: 2148.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597753329794" for ::1 at 2020-08-18 21:22:09 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597753329794"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (6.8ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (13.0ms)
+Completed 200 OK in 86ms (Views: 74.6ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:22:18 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (4.8ms)
+  Rendered games/_footer.html.haml (4.2ms)
+  Rendered games/index.html.haml within layouts/application (19.1ms)
+Completed 200 OK in 206ms (Views: 201.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597753338553" for ::1 at 2020-08-18 21:22:18 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597753338553"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (39.7ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (43.5ms)
+Completed 200 OK in 95ms (Views: 51.5ms | ActiveRecord: 39.7ms)
+
+
+Started GET "/" for ::1 at 2020-08-18 21:22:39 +0900
+Processing by GamesController#index as HTML
+  Rendering games/index.html.haml within layouts/application
+  Rendered games/_header.html.haml (6.1ms)
+  Rendered games/_footer.html.haml (4.3ms)
+  Rendered games/index.html.haml within layouts/application (22.4ms)
+Completed 200 OK in 2212ms (Views: 2205.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games.json?start=2020-07-26&end=2020-09-06&_=1597753362131" for ::1 at 2020-08-18 21:22:42 +0900
+Processing by GamesController#index as JSON
+  Parameters: {"start"=>"2020-07-26", "end"=>"2020-09-06", "_"=>"1597753362131"}
+  Rendering games/index.json.jbuilder
+  [1m[36mGame Load (0.6ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.json.jbuilder:1
+  Rendered games/index.json.jbuilder (3.9ms)
+Completed 200 OK in 65ms (Views: 58.0ms | ActiveRecord: 0.6ms)
+
+
